@@ -1,0 +1,135 @@
+﻿@model ExamAndQuiz.Models.ExamQuestion
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+    string[] variant = new string[] { "A", "B", "C", "D", "E" };
+    string[] m;
+    if (Model.Cavablar != null)
+    {
+        m = Model.Cavablar.Split('$');
+    }
+    else
+    {
+        m = new string[] { "A", "B", "C", "D", "E" };
+    }
+}
+
+<h2>Details</h2>
+
+<div class="row">
+
+</div>
+
+
+<div class="row align-items-start" style="font-family:'Palatino Linotype'">
+    <div class="col-md-8">
+
+        <div class="page-separator">
+            <div class="page-separator__text">Suallar &nbsp; <span style="color:orangered"> @Model.SualSirasi</span>/@ViewBag.UmumiSualSayi</div>
+        </div>
+        <div class="card">
+            <div class="card-header text-left">
+                <h2>Sual № <span style="color:orangered"> @Model.SualSirasi</span></h2> &nbsp;&nbsp;&nbsp;&nbsp;
+                <h3>
+                    @Html.Raw(Model.SualMetni)
+                </h3>
+            </div>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item d-flex">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            @for (int i = 0; i < m.Length; i++)
+                            {
+                            <h3>
+                                @Html.RadioButtonFor(model => model.Cavablar, variant[i], new { htmlAttributes = new { @class = "form-control" } })
+
+                                @Html.Raw("  " + m[i])
+                                <br />
+                                @Html.ValidationMessageFor(model => model.Cavablar, "", new { @class = "text-danger" })
+                            </h3>
+                               
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item d-flex">
+                    @*@Html.Action("QuestionNo", "Exam")*@
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="col-md-4">
+        <div class="col-lg-12">
+
+            <div class="page-separator">
+                <div class="page-separator__text">İmtahan müddəti</div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <div class="d-flex align-items-center">
+                        <div class="flex">
+                            <strong>İmtahan sonuna qalan zaman</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body d-flex flex-column align-items-center justify-content-center p-24pt">
+                    <div class="mb-24pt d-inline-flex flex-column text-center">
+                        <i class="material-icons text-50 icon-32pt">access_time</i>
+                        <div class="d-flex align-items-center">
+                            <h2 class="m-0">08:58:05</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="card-header text-center">
+                <a href="#" class="btn btn-accent">İMTAHANI BİTİR</a>
+            </div>
+            <div class="list-group list-group-flush">
+                <div class="list-group-item d-flex">
+                    <!-- foreach olacaq. her fenn ucun dovr edib dovr daxilinde yeni dovr yaranaraq class rov tipinde maksimim  -->
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

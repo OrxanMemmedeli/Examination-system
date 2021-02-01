@@ -1,0 +1,130 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<ExamAndQuiz.Models.Blog>
+
+@{
+    ViewBag.Title = "Xəbərlər";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+}
+
+
+<link rel="stylesheet" href="~/web3/assets/css/style.css">
+
+
+<section class="blog_area section-padding" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mb-5 mb-lg-0">
+                <div class="blog_left_sidebar">
+
+                    @foreach (var item in Model)
+                    {
+                        <article class="blog_item border-4" style="background-color:white">
+                            <section class="about-area2 pb-bottom pb-top">
+                                <div class="container">
+                                    <div class="row align-items-center">
+
+                                        <div class="col-lg-12 col-md-6 row">
+                                            <div class="col-lg-3 col-md-6">
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 align-items-center">
+                                                <div class="about-img ">
+                                                    <img src="@(item.FotoURL != null ? Url.Content(item.FotoURL):"")" style="float:left;" />
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="about-caption mb-50">
+                                                <div class="section-tittle mb-25">
+                                                    <h1>@item.Basliq</h1>
+                                                    <h3 class="blog_item_date alert" style="font-family:'Palatino Linotype'; color:darkblue">@item.Tarix.ToShortDateString()</h3>
+                                                    <p class="mb-20" style="text-align: justify; color:#5F021F; font-family:'Palatino Linotype'">
+                                                        @Html.Raw(item.Melumat)
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    }
+
+                    @Html.PagedListPager(Model, page => Url.Action("Blog",
+                           new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+                    <div class="col-lg-8 d-flex align-items-center">
+                        <div class="flex" style="max-width: 100%">
+
+
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination pagination-sm ">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true" class="material-icons">first_page</span>
+                                            <span class="sr-only">First</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true" class="material-icons">chevron_left</span>
+                                            <span class="sr-only">Prev</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#" aria-label="1">
+                                            <span>1</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="2">
+                                            <span>2</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="3">
+                                            <span>3</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="4">
+                                            <span>4</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span class="sr-only">Next</span>
+                                            <span aria-hidden="true" class="material-icons">chevron_right</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span class="sr-only">Last</span>
+                                            <span aria-hidden="true" class="material-icons">last_page</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Exam>
+@using ExamAndQuiz.Tools
+
+@{
+    ViewBag.Title = "Ana Səhifə";
+    Layout = "~/Views/Shared/_Layoutfront.cshtml";
+}
+
+<section class="header1 cid-r89gzwx5mR" id="header1-1t">
+
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="mbr-row align-left">
+            <div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-bold display-1">TDV Hilal Kursları</h1>
+                <h2 class="mbr-section-subtitle mbr-fonts-style mbr-pt-3 display-2">Online imtahan sistemi</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="features3 cid-r6gPZlWm02" id="features3-1k">
+    <div class="container">
+
+
+
+        @foreach (var sinifler in Model.OrderBy(x => x.SinifID).Select(x => x.Grade.Sinif).Distinct())
+        {
+            <h2 class="mbr-section-title mbr-fonts-style mbr-black mbr-pb-2 display-1" style="margin:50px">İMTAHAN SİNİFİ : @sinifler</h2>
+            <hr />
+
+            <div class="mbr-row">
+                @foreach (var allModel in Model.Where(x => x.Grade.Sinif == sinifler).OrderBy(x => x.Tarix))
+                {
+                    <div class="card mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 md-pb" style="margin:10px ; background-color:#FAF0F0">
+                        <div class="card-wrapper mbr-column border-4" style=" border:2px; ">
+                            <div class="card-img mbr-flex">
+                                <img decoding="async" alt="" src="@Url.Content(allModel.FotoURL)" class="i-amphtml-fill-content i-amphtml-replaced-content">
+                            </div>
+                            <div class="card-box mbr-m-auto mbr-pt-3">
+                                <h3 class="card-title mbr-bold mbr-fonts-style display-5">@allModel.Ad</h3>
+                                <h4 class="card-subtitle mbr-pt-3 mbr-fonts-style mbr-bold display-7">
+                                    Tarix: @allModel.Tarix.ToShortDateString()
+                                    <br />
+                                    Saat: @allModel.Saat
+                                </h4>
+                                <h6 class="card-text mbr-fonts-style mbr-pt-2 display-7"><big>İmtahan müddəti <span style="color:darkred"><i>(dəqiqə)</i></span>: @allModel.Muddet_deqiqe</big></h6>
+                                <div class="card-btn mbr-section-btn mbr-pt-2 text-center justify-content-center">
+                                    <a class="btn btn-primary display-7 btn-block" style="margin-left:40px" href="/Home/ExamRules/@Encryption.Encrypt(allModel.ID.ToString())">İmtahana Başla</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+
+    </div>
+</section>
+
+<section class="youtube1 cid-sdGNZnLENi" id="video1-24">
+    <div class="mbr-jc-c container">
+        <div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-px-4 mbr-pb-4 align-center">
+            <h2 class="mbr-section-title mbr-fonts-style mbr-black mbr-pb-2 display-1">İstifadə Qaydası</h2>
+        </div>
+        <div class="video-block mbr-m-auto mbr-col-md-8">
+            @Html.Action("Exam", "Home")
+        </div>
+    </div>
+</section>
+

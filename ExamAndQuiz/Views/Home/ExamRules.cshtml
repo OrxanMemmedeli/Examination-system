@@ -1,0 +1,126 @@
+﻿@model ExamAndQuiz.Models.ExamAndRules
+@using ExamAndQuiz.Tools
+
+@{
+    ViewBag.Title = "ExamRules";
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+
+<link rel="stylesheet" href="~/web3/assets/css/style.css">
+
+<div class="mdk-box bg-primary js-mdk-box mb-0" data-effects="blend-background" data-domfactory-upgraded="mdk-box">
+    <div class="mdk-box__bg"><div class="mdk-box__bg-front" style="transform: translateZ(0px); will-change: opacity; opacity: 1;"></div><div class="mdk-box__bg-rear" style="transform: translateZ(0px); will-change: opacity; opacity: 0;"></div></div>
+    <div class="mdk-box__content" style="background-color:darkslategray">
+        <div class="hero py-64pt text-center text-sm-left">
+            <div class="container page__container">
+
+                <h1 class="text-white">@Model.MyExam.Ad</h1>
+                <p class="lead text-white-50 measure-hero-lead">İmtahan ilə bağlı məlumatlar və  imtahan əsnasında riayət edilməli qaydalar aşağı hissədə əks edilmişdir.</p>
+                <div class="d-flex flex-column flex-sm-row align-items-center justify-content-start">
+                    <a href="/Home/ExamVideo/" class="btn btn-white"><i class="material-icons icon--right">play_circle_outline</i>İmtahanda necə iştirak etməli?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="navbar navbar-expand-sm navbar-light bg-white border-bottom-2 navbar-list p-0 m-0 align-items-center">
+    <div class="container page__container">
+        <ul class="nav navbar-nav flex align-items-sm-center">
+            <li class="nav-item navbar-list__item">
+                <div class="media align-items-center">
+                    <span class="media-left mr-16pt">
+                        <img src="@Url.Content(Model.MyExam.FotoURL)" style="width:40px" alt="avatar" class="rounded-circle">
+                    </span>
+                    <div class="media-body">
+                        <a class="card-title m-0">TDV Hilal Kursları</a>
+                        <p class="text-50 lh-1 mb-0">Təlimatçı</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="page-section bg-alt border-bottom-2">
+
+
+    <div class="container page__container">
+        <div class="row ">
+            <div class="col-md-8">
+                <div class="page-separator">
+                    <div class="page-separator__text">İmatahan Qaydaları</div>
+                </div>
+                @foreach (var item in Model.MyExamRule)
+                {
+                    @Html.Raw(item.Qayda)
+                }
+
+                @if (Model.MyExam.Giris == true)
+                {
+                    <a href="/Home/Identification/@Encryption.Encrypt(Model.MyExam.ID.ToString())" class="btn btn-outline-accent">QAYDALAR İLƏ TANIŞ OLDUM VƏ İMTAHANA BAŞLAYA BİLƏRƏM</a>
+                    @*<a href="/Home/ExamView/?id=@Model.MyExam.ID&studentID=@(Session["ID"] == null ? 5: Session["ID"])" class="btn btn-outline-accent">QAYDALAR İLƏ TANIŞ OLDUM VƏ İMTAHANA BAŞLAYA BİLƏRƏM</a>*@
+                }
+                else
+                {
+                    <a class="btn btn-outline-accent">İMTAHAN AKTİV DEYİL</a>
+                }
+            </div>
+            <div class="col-md-4">
+                <div class="page-separator">
+                    <div class="page-separator__text bg-alt">Detallar</div>
+                </div>
+                <ul class="list-unstyled" style="font-size:larger">
+                    <li class="d-flex align-items-center">
+                        <i class="material-icons text-muted icon--left">schedule</i>
+                        İmtahan Müddəti :
+                        &nbsp;&nbsp;
+                        <span style="color:#FA0202">
+                            @Model.MyExam.Muddet_deqiqe dəqiqə
+                        </span>
+
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="material-icons text-muted icon--left">assessment</i>
+                        İmtahan Tarixi :
+                        &nbsp;&nbsp;
+                        <span style="color:#FA0202">
+                            @Model.MyExam.Tarix.ToShortDateString()
+                            @Model.MyExam.Saat
+                        </span>
+
+                    </li>
+                    <li>
+                        <hr />
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <span class="material-icons text-50 mr-8pt">check</span>
+                        İmtahan Sinifi :
+                        &nbsp;&nbsp;
+                        <span style="color:#FA0202">
+                            @Model.MyExam.Grade.Sinif
+                        </span>
+
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <span class="material-icons text-50 mr-8pt">check</span>
+                        Fənn Sayı:
+                        &nbsp;&nbsp;
+                        <span style="color:#FA0202">
+                            @Model.MyExam.ExamTypeParameter.FennSayi
+                        </span>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <span class="material-icons text-50 mr-8pt">check</span>
+                        Sual Sayı:
+                        &nbsp;&nbsp;
+                        <span style="color:#FA0202">
+                            @Model.MyExam.ExamQuestions.Count()
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>

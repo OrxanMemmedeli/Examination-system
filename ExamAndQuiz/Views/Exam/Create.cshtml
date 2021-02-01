@@ -1,0 +1,153 @@
+﻿@model ExamAndQuiz.Models.Exam
+
+@{
+    ViewBag.Title = "Yeni İmtahan";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Yeni İmtahan</h2>
+
+@using (Html.BeginForm("Create", "Exam", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <input type="hidden" name="@Html.NameFor(x => x.AdminID)" value="@Session["ID"]" />        
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahanın Adı:<span style="color:red">*</span></p>
+                        @Html.EditorFor(model => model.Ad, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Ad, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahan Sinifi:<span style="color:red">*</span></p>
+                        @Html.DropDownList("SinifID", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.SinifID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahanın Tarixi:<span style="color:red">*</span></p>
+                        @Html.EditorFor(model => model.Tarix, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                        @Html.ValidationMessageFor(model => model.Tarix, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>Tip Parametri:<span style="color:red">*</span></p>
+                        @Html.DropDownList("TipParametrID", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.TipParametrID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahanın Müddəti(dəqiqə):<span style="color:red">*</span></p>
+                        @Html.EditorFor(model => model.Muddet_deqiqe, new { htmlAttributes = new { @class = "form-control", type = "number" } })
+                        @Html.ValidationMessageFor(model => model.Muddet_deqiqe, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahanın Saatı:<span style="color:red">*</span></p>
+                        @*@Html.EditorFor(model => model.Saat, new { htmlAttributes = new { @class = "form-control", type = "time" } })*@
+                        <input id="maskSample03" type="text" name="Saat" class="form-control" placeholder="Saat: 00:00" data-mask="00:00" required="">
+                        @Html.ValidationMessageFor(model => model.Saat, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>Imtahan:<span style="color:red">*</span></p>
+                        <select name="@Html.NameFor(x => x.Imtahan)" id="file" class="form-control">
+                            <option value="Sınaq">Sınaq</option>
+                            @*<option value="value">Quiz</option>*@
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>Foto:<span style="color:red">*</span></p>
+                        <input type="file" name="file" id="file" class="form-control" />
+                        @Html.ValidationMessageFor(model => model.FotoURL, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>PDF:<span style="color:red">*</span></p>
+                        <input type="file" name="PDF" id="PDF" class="form-control" />
+                        @Html.ValidationMessageFor(model => model.PDFFileUrl, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahan Görünsün:<span style="color:red">*</span></p>
+                        @Html.EditorFor(model => model.Status)
+                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>İmtahan Aktivdir:<span style="color:red">*</span></p>
+                        @Html.EditorFor(model => model.Giris)
+                        @Html.ValidationMessageFor(model => model.Giris, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            @*<div class="col-lg-4">
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <p>Admin:<span style="color:red">*</span></p>
+                        @Html.DropDownList("AdminID", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.AdminID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>*@
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Yarat" class="btn btn-outline-info" />
+                <a href="/Exam/Index" class="btn btn-outline-dark">Geri</a>
+            </div>
+        </div>
+    </div>
+}
+
+
+<!-- jQuery -->
+<script src="~/assets/vendor/jquery.min.js"></script>
+
+<!-- jQuery Mask Plugin -->
+<script src="~/assets/vendor/jquery.mask.min.js"></script>
+

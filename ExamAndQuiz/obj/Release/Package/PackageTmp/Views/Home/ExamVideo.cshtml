@@ -1,0 +1,32 @@
+﻿@model ExamAndQuiz.Models.ExamVideo
+@{
+    ViewBag.Title = "ExamVideo";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+}
+
+<link rel="stylesheet" href="~/web3/assets/css/style.css">
+
+
+<div class="" style="background-color:#f3fff3">
+    <div class="container page__container">
+        <div class="js-player embed-responsive embed-responsive-16by9 mb-32pt" data-domfactory-upgraded="player">
+            <div class="player embed-responsive-item">
+                <div class="player__content">
+                    @Html.Action("Exam", "Home")
+
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex flex-wrap align-items-end mb-16pt">
+            <h1 class="text-black flex m-0" >
+                @Model.Basliq
+            </h1>
+        </div>
+
+        <p class="hero__lead measure-hero-lead text-black mb-24pt" style="text-align: justify;">
+            @Model.Melumat
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,134 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.ExamResult>
+
+@{
+    ViewBag.Title = "IndexResult";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+@*<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">*@
+
+@foreach (var item in Model.Select(x => x.Exam.Ad).Distinct())
+{
+    <h4>
+        @item <span style="color:red"><i>- imtahanının Nəticələri</i></span>
+    </h4>
+}
+
+
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                Şagİrd
+            </th>
+            <th>Şagİrd Kodu</th>
+
+            <th>
+                Ümumİ Düz
+            </th>
+            <th>
+                Ümumİ Səhv
+            </th>
+            <th>
+                Yekun Bal
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="width:350px">
+                    @Html.DisplayFor(modelItem => item.Student.Ad)
+                    @Html.DisplayFor(modelItem => item.Student.Soyad)
+                    @Html.DisplayFor(modelItem => item.Student.AtaAdi)
+                    -
+                    @Html.DisplayFor(modelItem => item.Student.SVNomresi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.SagirdKodu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DuzSayi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SehvSayi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bal)
+                </td>
+                <td style="width:100px; text-align:center">
+                    <a href="/ExamResult/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>
+                Şagİrd
+            </th>
+            <th>Şagİrd Kodu</th>
+
+            <th>
+                Ümumİ Düz
+            </th>
+            <th>
+                Ümumİ Səhv
+            </th>
+            <th>
+                Yekun Bal
+            </th>
+        </tr>
+    </tfoot>
+
+</table>
+
+
+
+
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+@*<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>*@
+
+
+
+
+<script>
+    $('#example tfoot th').each(function () {
+        var title = $(this).text();
+        $(this).html('<input type="text" placeholder="' + title + '" />');
+    });
+
+    // DataTable
+    var table = $('#example').DataTable({
+
+        initComplete: function () {
+            // Apply the search
+            this.api().columns().every(function () {
+                var that = this;
+
+                $('input', this.footer()).on('keyup change clear', function () {
+                    if (that.search() !== this.value) {
+                        that
+                            .search(this.value)
+                            .draw();
+                    }
+                });
+            });
+        },
+
+    });
+
+</script>

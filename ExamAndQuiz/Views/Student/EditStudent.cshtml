@@ -1,0 +1,371 @@
+﻿ @model ExamAndQuiz.Models.Student
+
+@{
+    ViewBag.Title = "Yenilə";
+    //Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+    Layout = null;
+
+    if (Model.FotoURL == null)
+    {
+        Model.FotoURL = "~/UploadFoto/Student/Studentfoto.png";
+    }
+}
+
+
+
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title | KhanExam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon-1.png">
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="~/assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Fix Footer CSS -->
+    <link type="text/css" href="~/assets/vendor/fix-footer.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="~/assets/css/material-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="~/assets/css/fontawesome.css" rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css" href="~/assets/css/preloader.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="~/assets/css/app.css" rel="stylesheet">
+
+</head>
+
+
+<body class="layout-sticky-subnav layout-default " style="font-family:'Palatino Linotype'">
+    <div class="mdk-header-layout js-mdk-header-layout">
+
+        <div class="mdk-header-layout__content page-content ">
+
+            <div class="bg-white border-bottom-2 py-16pt " style="padding-left:60px; padding-right:60px">
+
+                <h2>Şagird Məlumatlarının Yenilənməsi</h2>
+
+                @using (Html.BeginForm("EditStudent", "Student", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        <hr />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.FotoURL)
+                        <input type="hidden" name="@Html.NameFor(model => model.ID)" value="@Model.ID" />
+
+                        <div class="row" style="font-family:'Palatino Linotype'; font-size:16px">
+                            <div class="col-lg-6" style="text-align:center">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="@Url.Content(Model.FotoURL)" class="col-lg-12" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="form-group">
+                                    @if (ViewBag.Error != null)
+                                    {
+                                        <div class="col-md-10">
+                                            <span style="color:red">@ViewBag.Error</span>
+                                        </div>
+                                    }
+                                </div>
+
+                                <p>ŞAGİRD MƏLUMATLARI</p>
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Şagirdin Adı:<span style="color:red">*</span></p>
+                                                        @Html.EditorFor(model => model.Ad, new { htmlAttributes = new { @class = "form-control", placeholder = "Ad daxil edin", required = "required", maxlength="20" } }) @*@style = "text-transform:uppercase"*@
+                                                        @Html.ValidationMessageFor(model => model.Ad, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Şagirdin Soyadı:<span style="color:red">*</span></p>
+                                                        @Html.EditorFor(model => model.Soyad, new { htmlAttributes = new { @class = "form-control", placeholder = "Soyad daxil edin", required = "required", maxlength="25"  } })
+                                                        @Html.ValidationMessageFor(model => model.Soyad, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Şagirdin Atasının Adı:<span style="color:red">*</span></p>
+                                                        @Html.EditorFor(model => model.AtaAdi, new { htmlAttributes = new { @class = "form-control", placeholder = "Ata adı daxil edin", required = "required", maxlength="20"  } })
+                                                        @Html.ValidationMessageFor(model => model.AtaAdi, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Şəxsiyyətin Seriası:<span style="color:red">*</span></p>
+                                                        <input name="SVNomresi" type="tel" class="form-control" placeholder="nümunə: 12345678" data-mask="00000000" pattern="[0-9]{8}" minlength="8" required="" value="@Model.SVNomresi">
+                                                        @Html.ValidationMessageFor(model => model.SVNomresi, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Doğum Tarixi:<span style="color:red">*</span></p>
+                                                        <input name="DogumTarixi" value="@Model.DogumTarixi.ToShortDateString()" class="form-control" required="" />
+
+                                                        @Html.ValidationMessageFor(model => model.DogumTarixi, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @if (ViewBag.SV != null)
+                                            {
+                                                <div class="col-md-10">
+                                                    <span style="color:red">@ViewBag.SV</span>
+                                                </div>
+                                            }
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Oxuduğu Sinif:<span style="color:red">*</span></p>
+                                                        @Html.DropDownListFor(m => m.SinifID, null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                                        @Html.ValidationMessageFor(model => model.SinifID, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Yaşadığı Şəhər:</p>
+                                                        @Html.DropDownListFor(m => m.SeherID, null, htmlAttributes: new { @class = "form-control", required = "required" })
+                                                        @Html.ValidationMessageFor(model => model.SeherID, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Kurs Daxili Qrupu: </p>
+                                                        @Html.DropDownListFor(m => m.QrupID, null, htmlAttributes: new { @class = "form-control", required = "required", @id = "test" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p id="SagirdKoduHeader">Şagird Kodu: <i style="color:darkblue">(Şagird Kodu yenilənə bilməz)</i></p>
+                                                        <input type="text" name="@Html.NameFor(x => x.SagirdKodu)" id="SagirdKoduBody" class="form-control" placeholder="Yalnız Kurs Şagirdləri Üçün" data-mask="0000" pattern="[0-9]{4}" minlength="4" required="" value="@Model.SagirdKodu" disabled="disabled" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Cins:<span style="color:red">*</span></p>
+                                                        &nbsp  Kişi @Html.RadioButtonFor(model => model.Cins, "K", new { htmlAttributes = new { @class = "form-control" } })
+                                                        &nbsp  Qadın @Html.RadioButtonFor(model => model.Cins, "Q", new { htmlAttributes = new { @class = "form-control" } })
+                                                        @Html.ValidationMessageFor(model => model.Cins, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Şagirdin Şəkli:</p>
+                                                        <input type="file" name="file" id="file" class="form-control" />
+                                                        @Html.ValidationMessageFor(model => model.FotoURL, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="hidden_div" class="row" style="display: block;">
+                                            <div class="col-lg-12">
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <script>
+                                    document.getElementById('test').addEventListener('change', function () {
+                                        var style = this.value != 1 ? 'block' : 'none';
+                                        document.getElementById('hidden_div').style.display = style;
+                                    });
+                                </script>
+
+                                <p>VALİDEYN MƏLUMATLARI</p>
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>E-mail Adresi:<span style="color:red">*</span></p>
+                                                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", type = "email", placeholder = "nümunə@email.com", required = "required", maxlength="50"  } })
+                                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>WhatsApp Nömrəsi:<span style="color:red">*</span></p>
+                                                        @*@Html.EditorFor(model => model.WhatsApp, new { htmlAttributes = new { @class = "form-control", required = "required" } })*@
+                                                        <input name="WhatsApp" type="tel" class="form-control" placeholder="nümunə: 501111234" data-mask="000000000" pattern="[0-9]{9}" minlength="9" required="" value="@Model.WhatsApp">
+                                                        @Html.ValidationMessageFor(model => model.WhatsApp, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <p>Mobil Nömrə:<span style="color:red">*</span></p>
+                                                        @*@Html.EditorFor(model => model.MobilNomre, new { htmlAttributes = new { @class = "form-control", required = "required" } })*@
+                                                        <input name="MobilNomre" type="tel" class="form-control" placeholder="nümunə: 501111234" data-mask="000000000" pattern="[0-9]{9}" minlength="9" required="" value="@Model.MobilNomre">
+                                                        @Html.ValidationMessageFor(model => model.MobilNomre, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @if (ViewBag.Email != null)
+                                            {
+                                                <div class="col-md-10">
+                                                    <span style="color:red">@ViewBag.Email</span>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="col-md-12">
+                                                        <p>Şifrə:<span style="color:red">* <i>istifadəsi qadağan olan simvollar: (', <,>)</i></span></p>
+                                                        @Html.EditorFor(model => model.Parol, new { htmlAttributes = new { @class = "form-control", type = "password", required = "required", placeholder = "Etibarlı Şifrədən istifadə edin", disabled = "disabled", maxlength="50" } })
+                                                        @Html.ValidationMessageFor(model => model.Parol, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="col-md-12">
+                                                        <p>Şifrənin Tekrarı:<span style="color:red">*</span></p>
+                                                        @Html.EditorFor(model => model.TekrarParol, new { htmlAttributes = new { @class = "form-control", type = "password", required = "required", placeholder = "Etibarlı Şifrədən istifadə edin", maxlength="50" } })
+                                                        @Html.ValidationMessageFor(model => model.TekrarParol, "", new { @class = "text-danger" })
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                @if (ViewBag.Parol != null)
+                                                {
+                                                    <div class="col-md-10">
+                                                        <span style="color:red">@ViewBag.Parol</span>
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @if (ViewBag.Error != null)
+                                    {
+                                        <div class="col-md-10">
+                                            <span style="color:red">@ViewBag.Error</span>
+                                        </div>
+                                    }
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-12">
+                                        <input id="submit" type="submit" value="Məlumatları Yenilə" class="btn btn-block btn-outline-info" />
+                                        <a href="/Home/Index/" class="btn btn-block btn-outline-primary">Geri</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                }
+
+
+
+            </div>
+        </div>
+
+        <div class="js-fix-footer2 bg-white border-top-2">
+            <div class="container page__container page-section d-flex flex-column" style="text-align:end">
+                <p class="text-50 small mt-n1 mb-0">Copyright 2020 &copy; All rights reserved | Create by <b>Khan</b></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="~/assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="~/assets/vendor/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="~/assets/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- DOM Factory -->
+    <script src="~/assets/vendor/dom-factory.js"></script>
+
+    <!-- MDK -->
+    <script src="~/assets/vendor/material-design-kit.js"></script>
+
+    <!-- Fix Footer -->
+    <script src="~/assets/vendor/fix-footer.js"></script>
+
+    <!-- App JS -->
+    <script src="~/assets/js/app.js"></script>
+
+    <!-- jQuery Mask Plugin -->
+    <script src="~/assets/vendor/jquery.mask.min.js"></script>
+
+</body>
+
+</html>
+

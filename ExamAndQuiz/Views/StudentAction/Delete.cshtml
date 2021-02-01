@@ -1,0 +1,66 @@
+﻿@model ExamAndQuiz.Models.StudentAction
+
+@{
+    ViewBag.Title = "Sil";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+
+<h2>Sil</h2>
+
+<h3>Silinən məlumatlar bərpa edilə bilməz</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GirisKodu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GirisKodu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tarix)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tarix)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Exam.Ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Exam.Ad)
+        </dd>
+
+        <dt>
+            Sagird
+        </dt>
+
+        <dd>
+            @Model.Student.Ad @Model.Student.Soyad @Model.Student.AtaAdi ( @Model.Student.SagirdKodu) -  @Model.Student.SVNomresi
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-outline-info" />
+            <a href="/StudentAction/Index" class="btn btn-outline-dark">Geri</a>
+        </div>
+    }
+</div>

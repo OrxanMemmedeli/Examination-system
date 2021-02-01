@@ -1,0 +1,18 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Exam>
+@{
+    ViewBag.Title = "Quiz";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+}
+
+<h2>Quizlər</h2>
+
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>Quiz : @item.Ad</td>
+            <td>Sinif : @item.Grade.Sinif</td>
+            <td>Müddət : @item.Muddet_deqiqe</td>
+        </tr>
+    }
+</table>

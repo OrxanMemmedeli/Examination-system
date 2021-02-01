@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineExamModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="About">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SehifeBasliq" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Haqqimizda" Type="ntext" Nullable="false" />
+    <Property Name="Mobil" Type="nvarchar" MaxLength="52" Nullable="false" />
+    <Property Name="WhatsApp" Type="nvarchar" MaxLength="52" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Youtube" Type="nvarchar" MaxLength="250" />
+    <Property Name="Facebook" Type="nvarchar" MaxLength="250" />
+    <Property Name="Unvan" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Parol" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="QeydiyyatTarixi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Basliq" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Melumat" Type="ntext" Nullable="false" />
+    <Property Name="FotoURL" Type="ntext" />
+    <Property Name="Tarix" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BookletOption">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Variant" Type="nchar" MaxLength="1" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cities">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Seher" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CourseGroup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Qrup" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Exam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="SinifID" Type="int" Nullable="false" />
+    <Property Name="Tarix" Type="date" Nullable="false" />
+    <Property Name="Saat" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Muddet_deqiqe" Type="int" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="Giris" Type="bit" Nullable="false" />
+    <Property Name="FotoURL" Type="ntext" />
+    <Property Name="PDFFileUrl" Type="ntext" />
+    <Property Name="TipParametrID" Type="int" Nullable="false" />
+    <Property Name="AdminID" Type="int" Nullable="false" />
+    <Property Name="Imtahan" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="ExamQuestion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImtahanId" Type="int" Nullable="false" />
+    <Property Name="FennId" Type="int" Nullable="false" />
+    <Property Name="TipId" Type="int" Nullable="false" />
+    <Property Name="SualSirasi" Type="int" Nullable="false" />
+    <Property Name="SualMetni" Type="ntext" />
+    <Property Name="Cavablar" Type="ntext" />
+    <Property Name="SualTipi" Type="int" Nullable="false" />
+    <Property Name="YaranmaTarixi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExamOptions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImtahanID" Type="int" Nullable="false" />
+    <Property Name="VariantID" Type="int" Nullable="false" />
+    <Property Name="Cavablar" Type="ntext" />
+  </EntityType>
+  <EntityType Name="ExamParameter">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipParametrID" Type="int" Nullable="false" />
+    <Property Name="Sira" Type="int" Nullable="false" />
+    <Property Name="FenninID" Type="int" Nullable="false" />
+    <Property Name="Bal" Type="int" Nullable="false" />
+    <Property Name="UmumiSualSayi" Type="int" Nullable="false" />
+    <Property Name="AciqSualSayi" Type="int" />
+    <Property Name="AciqSuallar" Type="varchar" MaxLength="50" />
+    <Property Name="SehvBal" Type="int" />
+    <Property Name="AciqSehvBal" Type="int" />
+  </EntityType>
+  <EntityType Name="ExamResult">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImtahanID" Type="int" Nullable="false" />
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="DuzSayi" Type="int" />
+    <Property Name="SehvSayi" Type="int" />
+    <Property Name="Bal" Type="nvarchar" MaxLength="10" />
+    <Property Name="Yer" Type="int" />
+    <Property Name="Tarix" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ExamRule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Qayda" Type="ntext" Nullable="false" />
+    <Property Name="Sira" Type="int" Nullable="false" />
+    <Property Name="Cap" Type="bit" Nullable="false" />
+    <Property Name="Elan" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExamType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExamTypeParameter">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FennSayi" Type="int" Nullable="false" />
+    <Property Name="TipID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExamVideo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Basliq" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Melumat" Type="ntext" />
+    <Property Name="VideoURL" Type="ntext" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FreeTicket">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SagirdKodu" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sinif" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionBank">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sual" Type="ntext" Nullable="false" />
+    <Property Name="Cavab" Type="ntext" Nullable="false" />
+    <Property Name="Cetinlik" Type="int" />
+    <Property Name="Movzu" Type="int" />
+    <Property Name="FennID" Type="int" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="YaranmaTarixi" Type="datetime" Nullable="false" />
+    <Property Name="TipID" Type="int" Nullable="false" />
+    <Property Name="ImtahanID" Type="int" Nullable="false" />
+    <Property Name="AdminID" Type="int" />
+  </EntityType>
+  <EntityType Name="QuestionType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tip" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PDFFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FileUrl" Type="ntext" Nullable="false" />
+    <Property Name="ImtahanID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="AtaAdi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="SVNomresi" Type="nchar" MaxLength="12" />
+    <Property Name="SagirdKodu" Type="int" />
+    <Property Name="SinifID" Type="int" Nullable="false" />
+    <Property Name="Cins" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="DogumTarixi" Type="date" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="WhatsApp" Type="nvarchar" MaxLength="9" />
+    <Property Name="MobilNomre" Type="nvarchar" MaxLength="9" />
+    <Property Name="QrupID" Type="int" />
+    <Property Name="Parol" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="QeydiyyatTarixi" Type="datetime" Nullable="false" />
+    <Property Name="SeherID" Type="int" Nullable="false" />
+    <Property Name="FotoURL" Type="ntext" />
+  </EntityType>
+  <EntityType Name="StudentAction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="ImtahanID" Type="int" Nullable="false" />
+    <Property Name="GirisKodu" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Tarix" Type="datetime" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentOptions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SagirdID" Type="int" Nullable="false" />
+    <Property Name="ImtahanId" Type="int" Nullable="false" />
+    <Property Name="Bitirmek" Type="bit" Nullable="false" />
+    <Property Name="Cavablar" Type="ntext" />
+    <Property Name="FennlerUzreNetice" Type="ntext" />
+    <Property Name="Bal" Type="float" />
+    <Property Name="Tarix" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fenn" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SubjectSection">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Movzu" Type="ntext" Nullable="false" />
+    <Property Name="FennID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Exam_Admin1">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="1" />
+    <End Role="Exam" Type="Self.Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exam_ExamTypeParameter">
+    <End Role="ExamTypeParameter" Type="Self.ExamTypeParameter" Multiplicity="1" />
+    <End Role="Exam" Type="Self.Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamTypeParameter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="TipParametrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exam_Grade">
+    <End Role="Grade" Type="Self.Grade" Multiplicity="1" />
+    <End Role="Exam" Type="Self.Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="SinifID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_Exam1">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="ExamQuestion" Type="Self.ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="ImtahanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_ExamTypeParameter1">
+    <End Role="ExamTypeParameter" Type="Self.ExamTypeParameter" Multiplicity="1" />
+    <End Role="ExamQuestion" Type="Self.ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamTypeParameter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="TipId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_QuestionType">
+    <End Role="QuestionType" Type="Self.QuestionType" Multiplicity="1" />
+    <End Role="ExamQuestion" Type="Self.ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="SualTipi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_Subject2">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="ExamQuestion" Type="Self.ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="FennId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamOptions_BookletOption">
+    <End Role="BookletOption" Type="Self.BookletOption" Multiplicity="1" />
+    <End Role="ExamOptions" Type="Self.ExamOptions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookletOption">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamOptions">
+        <PropertyRef Name="VariantID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamOptions_Exam">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="ExamOptions" Type="Self.ExamOptions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamOptions">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamParameter_ExamTypeParameter">
+    <End Role="ExamTypeParameter" Type="Self.ExamTypeParameter" Multiplicity="1" />
+    <End Role="ExamParameter" Type="Self.ExamParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamTypeParameter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamParameter">
+        <PropertyRef Name="TipParametrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamParameter_Subject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="ExamParameter" Type="Self.ExamParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamParameter">
+        <PropertyRef Name="FenninID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamResult_Exam">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="ExamResult" Type="Self.ExamResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamResult">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamResult_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="ExamResult" Type="Self.ExamResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamResult">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamTypeParameter_ExamType">
+    <End Role="ExamType" Type="Self.ExamType" Multiplicity="1" />
+    <End Role="ExamTypeParameter" Type="Self.ExamTypeParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamTypeParameter">
+        <PropertyRef Name="TipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Admin">
+    <End Role="Admin" Type="Self.Admin" Multiplicity="0..1" />
+    <End Role="QuestionBank" Type="Self.QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Exam">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="QuestionBank" Type="Self.QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_QuestionType">
+    <End Role="QuestionType" Type="Self.QuestionType" Multiplicity="1" />
+    <End Role="QuestionBank" Type="Self.QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="TipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Subject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="QuestionBank" Type="Self.QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="FennID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuestionBank_SubjectSection">
+    <End Role="SubjectSection" Type="Self.SubjectSection" Multiplicity="0..1" />
+    <End Role="QuestionBank" Type="Self.QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectSection">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="Movzu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDFFile_Exam">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="PDFFile" Type="Self.PDFFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PDFFile">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Cities1">
+    <End Role="Cities" Type="Self.Cities" Multiplicity="1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cities">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SeherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_CourseGroup">
+    <End Role="CourseGroup" Type="Self.CourseGroup" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CourseGroup">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="QrupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Grade">
+    <End Role="Grade" Type="Self.Grade" Multiplicity="1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SinifID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentAction_Exam1">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="StudentAction" Type="Self.StudentAction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentAction">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentAction_Student1">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="StudentAction" Type="Self.StudentAction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentAction">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentOptions_Exam">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="1" />
+    <End Role="StudentOptions" Type="Self.StudentOptions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentOptions">
+        <PropertyRef Name="ImtahanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentOptions_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="StudentOptions" Type="Self.StudentOptions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentOptions">
+        <PropertyRef Name="SagirdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectSection_Subject">
+    <End Role="Subject" Type="Self.Subject" Multiplicity="1" />
+    <End Role="SubjectSection" Type="Self.SubjectSection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SubjectSection">
+        <PropertyRef Name="FennID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineExamModelStoreContainer">
+    <EntitySet Name="About" EntityType="Self.About" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Blog" EntityType="Self.Blog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BookletOption" EntityType="Self.BookletOption" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cities" EntityType="Self.Cities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CourseGroup" EntityType="Self.CourseGroup" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Exam" EntityType="Self.Exam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamQuestion" EntityType="Self.ExamQuestion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamOptions" EntityType="Self.ExamOptions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamParameter" EntityType="Self.ExamParameter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamResult" EntityType="Self.ExamResult" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamRule" EntityType="Self.ExamRule" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamType" EntityType="Self.ExamType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamTypeParameter" EntityType="Self.ExamTypeParameter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ExamVideo" EntityType="Self.ExamVideo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FreeTicket" EntityType="Self.FreeTicket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Grade" EntityType="Self.Grade" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuestionBank" EntityType="Self.QuestionBank" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuestionType" EntityType="Self.QuestionType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PDFFile" EntityType="Self.PDFFile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentAction" EntityType="Self.StudentAction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentOptions" EntityType="Self.StudentOptions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubjectSection" EntityType="Self.SubjectSection" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Exam_Admin1" Association="Self.FK_Exam_Admin1">
+      <End Role="Admin" EntitySet="Admin" />
+      <End Role="Exam" EntitySet="Exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exam_ExamTypeParameter" Association="Self.FK_Exam_ExamTypeParameter">
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameter" />
+      <End Role="Exam" EntitySet="Exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exam_Grade" Association="Self.FK_Exam_Grade">
+      <End Role="Grade" EntitySet="Grade" />
+      <End Role="Exam" EntitySet="Exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_Exam1" Association="Self.FK_ExamQuestion_Exam1">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_ExamTypeParameter1" Association="Self.FK_ExamQuestion_ExamTypeParameter1">
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameter" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_QuestionType" Association="Self.FK_ExamQuestion_QuestionType">
+      <End Role="QuestionType" EntitySet="QuestionType" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_Subject2" Association="Self.FK_ExamQuestion_Subject2">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamOptions_BookletOption" Association="Self.FK_ExamOptions_BookletOption">
+      <End Role="BookletOption" EntitySet="BookletOption" />
+      <End Role="ExamOptions" EntitySet="ExamOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamOptions_Exam" Association="Self.FK_ExamOptions_Exam">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="ExamOptions" EntitySet="ExamOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamParameter_ExamTypeParameter" Association="Self.FK_ExamParameter_ExamTypeParameter">
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameter" />
+      <End Role="ExamParameter" EntitySet="ExamParameter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamParameter_Subject" Association="Self.FK_ExamParameter_Subject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="ExamParameter" EntitySet="ExamParameter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamResult_Exam" Association="Self.FK_ExamResult_Exam">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="ExamResult" EntitySet="ExamResult" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamResult_Student" Association="Self.FK_ExamResult_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="ExamResult" EntitySet="ExamResult" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamTypeParameter_ExamType" Association="Self.FK_ExamTypeParameter_ExamType">
+      <End Role="ExamType" EntitySet="ExamType" />
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Admin" Association="Self.FK_Question_Admin">
+      <End Role="Admin" EntitySet="Admin" />
+      <End Role="QuestionBank" EntitySet="QuestionBank" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Exam" Association="Self.FK_Question_Exam">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="QuestionBank" EntitySet="QuestionBank" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_QuestionType" Association="Self.FK_Question_QuestionType">
+      <End Role="QuestionType" EntitySet="QuestionType" />
+      <End Role="QuestionBank" EntitySet="QuestionBank" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Subject" Association="Self.FK_Question_Subject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="QuestionBank" EntitySet="QuestionBank" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuestionBank_SubjectSection" Association="Self.FK_QuestionBank_SubjectSection">
+      <End Role="SubjectSection" EntitySet="SubjectSection" />
+      <End Role="QuestionBank" EntitySet="QuestionBank" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDFFile_Exam" Association="Self.FK_PDFFile_Exam">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="PDFFile" EntitySet="PDFFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Cities1" Association="Self.FK_Student_Cities1">
+      <End Role="Cities" EntitySet="Cities" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_CourseGroup" Association="Self.FK_Student_CourseGroup">
+      <End Role="CourseGroup" EntitySet="CourseGroup" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Grade" Association="Self.FK_Student_Grade">
+      <End Role="Grade" EntitySet="Grade" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentAction_Exam1" Association="Self.FK_StudentAction_Exam1">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="StudentAction" EntitySet="StudentAction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentAction_Student1" Association="Self.FK_StudentAction_Student1">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="StudentAction" EntitySet="StudentAction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentOptions_Exam" Association="Self.FK_StudentOptions_Exam">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="StudentOptions" EntitySet="StudentOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentOptions_Student" Association="Self.FK_StudentOptions_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="StudentOptions" EntitySet="StudentOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectSection_Subject" Association="Self.FK_SubjectSection_Subject">
+      <End Role="Subject" EntitySet="Subject" />
+      <End Role="SubjectSection" EntitySet="SubjectSection" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

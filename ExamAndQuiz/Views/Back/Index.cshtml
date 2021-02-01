@@ -1,0 +1,68 @@
+﻿@model ExamAndQuiz.Models.StudentAction
+
+@{
+    ViewBag.Title = "Arxa Sehife";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"/>
+
+<h2>Kod Generator</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Şagirdin Vəsiqə Nömrəsi", htmlAttributes: new { @class = "control-label col-md-2" })
+            <br /><span style="background-color:lightgray">Eger sagird Sistemdə olmazsa, bilet satışı edilə bilməz. </span>
+            <div class="col-md-10">
+                <input type="text" name="Student" list="valueList" class="form-control" required=""/>
+                    <datalist id="valueList">
+                        @foreach (var item in ViewBag.StudentID)
+                        {
+                        <option value="@item.SVNomresi - @item.Ad @item.Soyad @item.AtaAdi ( @item.SagirdKodu )"></option>
+                        }
+                    </datalist>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @if (ViewBag.Error != null)
+            {
+                <div class="col-md-10">
+                    <span style="color:red">@ViewBag.Error</span>
+                </div>
+            }
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImtahanID, "ImtahanID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ImtahanID", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ImtahanID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Əlavə Et" class="btn btn-outline-primary-yellow" />
+            </div>
+        </div>
+    </div>
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script re src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js"></script>
+
+<script type="text/javascript">
+    $('#searchable').searchable();
+</script>

@@ -1,0 +1,98 @@
+﻿@model ExamAndQuiz.Models.ExamParameter
+
+@{
+    ViewBag.Title = "Sil";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Sil</h2>
+
+<h3>Silinən məlumatlar bərpa edilə bilməz</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Sira)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sira)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UmumiSualSayi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UmumiSualSayi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AciqSualSayi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AciqSualSayi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AciqSuallar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AciqSuallar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SehvBal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SehvBal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AciqSehvBal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AciqSehvBal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExamTypeParameter.Ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExamTypeParameter.Ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject.Fenn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject.Fenn)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-outline-info" />
+            <a href="/ExamParameter/Index" class="btn btn-outline-dark">Geri</a>
+        </div>
+    }
+</div>

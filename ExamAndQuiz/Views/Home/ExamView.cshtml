@@ -1,0 +1,471 @@
+﻿@model ExamAndQuiz.Models.ExamAndQuestions
+
+@{
+    Layout = null;
+
+    string[] variant = new string[] { "A", "B", "C", "D", "E" };
+
+}
+
+
+<!DOCTYPE html>
+<html amp>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="8b v0.0.0.0, 8b.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="">
+    <title>@Model.MyExam.Ad | KhanExam</title>
+    <link href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" />
+
+    <link rel="canonical" href="https://194044.8b.io/">
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1,end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1,end) 0s 1 normal both
+        }
+
+        @@-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @@-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @@-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @@-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @@keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet">
+
+    <link amp-custom href="~/webFront/WebExam/style.css" rel="stylesheet" />
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+
+    <link href="~/assets/toastr/toastr.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <section class="menu1 menu horizontal-menu cid-r9hYnpdbBm" id="menu1-1">
+
+        <nav class="navbar navbar-dropdown navbar-expand-lg navbar-fixed-top">
+            <div class="menu-container container">
+                <div class="navbar-brand">
+
+                    <span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5">@Session["UserName"]</a></span>
+                </div>
+
+
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                    <li class="nav-item">
+
+                    <li class="nav-item">
+                        <a class="nav-link mbr-bold link text-black display-5" style="color:#b90029">
+                            @Html.Action("Timer", "Home", new { id = Model.MyExam.ID })
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="navbar-buttons mbr-section-btn">
+                    <input id="btnAlert" type="button" value="İmtahanı Bitir" class="btn btn-md mbr-bold btn-primary-outline btn-danger-outline display-7" />
+                    <input id="btnEnd" type="submit" value="" class="" hidden="hidden" />
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="header2 cid-sdSfYHEdkW" id="header2-z" style="padding:50px; padding-top:80px">
+
+
+        <div class="mbr-row mbr-black mbr-row-reverse">
+
+            <div class="title-wrap mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-4 align-left mbr-flex">
+                <div class="title-block mbr-col-sm-12 mbr-col-md-12">
+                    <h1 class="mbr-section-title mbr-fonts-style mbr-bold mbr-white display-2">Sürətli Keçid</h1>
+                    <div class="display-7" style="font-family:'Palatino Linotype'">
+                        <input class="form-control" style="border-radius:18px; border:none; padding-right:0px; margin-right:0px; width:250px" type="text" id="pageNum" placeholder="....keçid ediləcək sualın nömrəsi...." />  =>
+                        <button id="btnChange" class="btn" style="border:none; background-color:white; padding-left:2px; margin-left:2px;">Sualı Göstər</button>
+                    </div>
+
+
+                    @foreach (var fenn in Model.MyExamQuestion.Select(x => x.Subject.Fenn).Distinct())
+                    {
+                        <br />
+                        <h1 class="mbr-section-title mbr-fonts-style mbr-bold mbr-white display-5" style="font-family:'Palatino Linotype'">
+                            @fenn
+                        </h1>
+                        <hr class="line" />
+
+                        <div class="mbr-row mbr-pt-4" style="font-family:'Palatino Linotype'">
+
+                            @foreach (var sual in Model.MyExamQuestion.Where(x => x.Subject.Fenn == fenn).OrderBy(x => x.SualSirasi))
+                            {
+                                <div class="btn btn-success bckclr" style="height:25px; width:40px; padding:0px; margin:1px; border:none" id="@sual.SualSirasi" ques-id="@sual.SualSirasi">@sual.SualSirasi</div>
+                            }
+
+                        </div>
+
+                    }
+                </div>
+            </div>
+
+
+
+            <div class="image-wrap mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 mbr-flex">
+
+                <div class="image-block mbr-col-md-12 mbr-col-sm-12 mbr-mr-auto">
+
+                    <div class="inner-container align-center">
+                        <h1 class="mbr-section-title mbr-fonts-style mbr-bold display-2">@Model.MyExam.Ad</h1>
+
+                        <hr class="line">
+
+
+                        <div class="mbr-row">
+                            <div class="card mbr-col-sm-4 mbr-col-md-4 mbr-col-lg-4 align-center md-pb">
+                                <div class="card-wrapper mbr-flex mbr-column mbr-p-2">
+                                    <div class="card-img align-center mbr-pb-3">
+                                        <div class="image-text mbr-fonts-style display-2">@Session["SagirdKodu"]</div>
+                                    </div>
+                                    <div class="card-box">
+                                        <h3 class="card-title mbr-bold mbr-fonts-style display-7" style="color:#b90029">Şagird kodu</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mbr-col-sm-2 mbr-col-md-2 mbr-col-lg-2 align-center md-pb">
+                                <div class="card-wrapper mbr-flex mbr-column mbr-p-2">
+                                    <div class="card-img align-center mbr-pb-3">
+                                        <div class="image-text mbr-fonts-style display-2">@Model.MyExam.Grade.Sinif</div>
+                                    </div>
+                                    <div class="card-box">
+                                        <h3 class="card-title mbr-bold mbr-fonts-style display-7" style="color:#b90029">Sinif</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mbr-col-sm-2 mbr-col-md-2 mbr-col-lg-2 align-center md-pb">
+                                <div class="card-wrapper mbr-flex mbr-column mbr-p-2">
+                                    <div class="card-img align-center mbr-pb-3">
+                                        <div class="image-text mbr-fonts-style display-2">@Model.MyExam.Muddet_deqiqe</div>
+                                    </div>
+                                    <div class="card-box">
+                                        <h3 class="card-title mbr-bold mbr-fonts-style display-7" style="color:#b90029">Müddət (dəq.)</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mbr-col-sm-2 mbr-col-md-2 mbr-col-lg-2 align-center md-pb">
+                                <div class="card-wrapper mbr-flex mbr-column mbr-p-2">
+                                    <div class="card-img align-center mbr-pb-3">
+                                        <div class="image-text mbr-fonts-style display-2">@Model.MyExam.ExamTypeParameter.FennSayi</div>
+                                    </div>
+                                    <div class="card-box">
+                                        <h3 class="card-title mbr-bold mbr-fonts-style display-7" style="color:#b90029">Fənn Sayı</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mbr-col-sm-2 mbr-col-md-2 mbr-col-lg-2 align-center md-pb">
+                                <div class="card-wrapper mbr-flex mbr-column mbr-p-2">
+                                    <div class="card-img align-center mbr-pb-3">
+                                        <div class="image-text mbr-fonts-style display-2">@ViewBag.UmumiSualSayi</div>
+                                    </div>
+                                    <div class="card-box">
+                                        <h3 class="card-title mbr-bold mbr-fonts-style display-7" style="color: #b90029">Sual Sayı</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <hr class="line">
+                    </div>
+
+
+                    <table id="example" class="display nowrap" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th style="width:1000px"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.MyExamQuestion)
+                            {
+
+                                <tr>
+                                    <td class="display-5">
+                                        Sual &nbsp; <span style="color:orangered"> @item.SualSirasi</span>/@ViewBag.UmumiSualSayi
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="inner-container align-center">
+                                            <div class="icon align-left">
+                                                <div class="iconfont-wrapper">
+                                                    <span class="amp-iconfont fa-quote-left fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M832 960v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136v-704q0-104 40.5-198.5t109.5-163.5 163.5-109.5 198.5-40.5h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136zm896 0v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136v-704q0-104 40.5-198.5t109.5-163.5 163.5-109.5 198.5-40.5h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136z"></path></svg></span>
+                                                </div>
+                                            </div>
+                                            <p class="mbr-text mbr-black mbr-fonts-style mbr-py-2 display-5" style="text-align: justify">
+                                                @Html.Raw(item.SualMetni)
+                                                <br />
+                                                @Html.Raw(item.Cavablar)
+                                            </p>
+                                            <div class="icon align-right">
+                                                <div class="iconfont-wrapper">
+                                                    <span class="amp-iconfont fa-quote-right fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M832 320v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136zm896 0v704q0 104-40.5 198.5t-109.5 163.5-163.5 109.5-198.5 40.5h-64q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h64q106 0 181-75t75-181v-32q0-40-28-68t-68-28h-224q-80 0-136-56t-56-136v-384q0-80 56-136t136-56h384q80 0 136 56t56 136z"></path></svg></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    @if (item.QuestionType.Tip == "Qapalı")
+                                    {
+                                        <td id="@(item.SualSirasi - 1)" class="answer-parent-td answer-close row" style="width:100%">
+                                            @for (int i = 0; i < 5; i++)
+                                            {
+                                                <input class="" type="radio" name="answer-close" value="@variant[i]" id="@(item.SualSirasi + "-" + variant[i])" />
+                                                <label for="@(item.SualSirasi + "-" + variant[i])">@Html.Raw("  " + variant[i]) &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                                            }
+                                        </td>
+
+                                    }
+                                    else
+                                    {
+                                        <td id="@(item.SualSirasi - 1)" class="answer-parent-td answer-open">
+
+                                            <input class="form-control" style="border-radius:18px; border:none;" type="text" name="answer-open" placeholder="...cavabınızı yazın..." />
+
+                                        </td>
+                                    }
+                                </tr>
+
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/assets/toastr/toastr.js"></script>
+    <script language=JavaScript src="~/assets/js/page-click.js"></script>
+
+    <script>
+        Command: toastr["error"]("3. Səhifəni və yaxud brauzer ''Bağlamaq''");
+        Command: toastr["error"]("2. Səhifədə ''İrəli'' və ''Geri'' düymələrindən istifadə etmək,");
+        Command: toastr["error"]("1. Səhifəni ''Yeniləmək'',");
+        Command: toastr["warning"]("İmtahan prosesində aşağıdakı hallar baş verərsə, cavablarınız silinəcək və imtahanınız bitmiş hesab ediləcəkdir.");
+        Command: toastr["success"]("İmtahan başlamışdır");
+
+        toastr.options = {
+            "closeButton": false,
+            "debug": false,
+            "newestOnTop": true,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": true,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "20000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+    </script>
+    <script>
+
+        window.onbeforeunload = function (e) {
+            return 'info';
+        };
+
+        var answers = new Array();
+        var table;
+        $(document).ready(function () {
+            table = $('#example').DataTable({
+                lengthChange: false,
+                lengthMenu: [3],
+                ordering: false,
+                searching: false,
+                info: false,
+                pagingType: "simple",
+                language: {
+                    "oPaginate": {
+                        "sFirst": "İlk",
+                        "sLast": "Son",
+                        "sNext": "🔗 Sonraki ▶     ",
+                        "sPrevious": "◀ Əvvəlki 🔗"
+                    },
+                },
+            });
+
+            $('#btnChange').on('click', function () {
+                table.page(parseInt($('#pageNum').val()) - 1).draw(false);
+            });
+
+            $('#btnEnd').on('click', function () {
+                SendAjax(answers, true);
+            });
+
+            @( ViewBag.End != null ? "SendAjax(answers, true);":"" )
+
+            Finish();
+
+            $('[ques-id]').on('click', function () {
+                table.page(parseInt($(this).attr('ques-id')) - 1).draw(false);
+            });
+
+            $(document).on('change', '[name="answer-open"],[name="answer-close"]', function () {
+                var rowcollection = table.$(".answer-parent-td", { "page": "all" });
+
+                //Now loop through all the selected checkboxes to perform desired actions
+                rowcollection.each(function (index, elem) {
+                    if ($(elem).hasClass('answer-close')) {
+                        if ($('[name="answer-close"]:checked', elem).val()) {
+                            answers[$(elem).attr('id')] = $('[name="answer-close"]:checked', elem).val();
+
+                            //change button's color
+                            document.getElementById(+$(elem).attr('id') + 1).setAttribute("style", "height:25px; width:40px; padding:0px; margin:1px; border:none; background-color: green;");
+                        }
+                        else {
+                            answers[$(elem).attr('id')] = "*";
+                        }
+                    }
+                    else {
+                        if ($('[name="answer-open"]', elem).val()) {
+                            answers[$(elem).attr('id')] = $('[name="answer-open"]', elem).val();
+
+                            //change button's color
+                            document.getElementById(+$(elem).attr('id') + 1).setAttribute("style", "height:25px; width:40px; padding:0px; margin:1px; border:none; background-color: green;");
+                        }
+                        else {
+                            answers[$(elem).attr('id')] = "*";
+                        }
+                    }
+                });
+
+
+                SendAjax(answers);
+                console.log(answers);
+            });
+
+
+        });
+
+        var imtahanID = @Model.MyExam.ID;
+        var sagirdID = @(Session["ID"] == null ? 5: Session["ID"]);
+
+        function SendAjax(answers, redirectUrl = false) {
+            $.ajax({
+                type: 'POST',
+                url: '/StudentAction/Answer',
+                data: { answers: answers, studentID: sagirdID, examID: imtahanID },
+                cache: false,
+                success: function (response) {
+                    if (response && redirectUrl) {
+                        window.onbeforeunload = false;
+
+                        url = response;
+                        window.open(url);
+                        location.reload();
+                        //history.go(0);
+                    }
+                },
+                error: function () {
+                    alert('error');
+                }
+            });
+        }
+
+        function Finish() {
+            $('#btnAlert').on('click', function () {
+                swal({
+                    title: "İmtahanı Bitirilsinmi?",
+                    text: "İmtahanı bitirdikdən sonra suallara hər hansı dəyişiklik edilə bilməz!",
+                    icon: "warning",
+                    buttons: true,
+                    dangerMode: true,
+                })
+                    .then((willDelete) => {
+                        if (willDelete) {
+
+                            SendAjax(answers, true);
+
+                        } else {
+                            swal("İmtahana qaldığınız yerdən davam edə bilərsiniz!");
+                        }
+                    });
+            });
+        }
+
+    </script>
+
+
+</body>
+
+</html>

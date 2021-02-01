@@ -1,0 +1,360 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title | KhanExam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon-1.png">
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="~/assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Fix Footer CSS -->
+    <link type="text/css" href="~/assets/vendor/fix-footer.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="~/assets/css/material-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="~/assets/css/fontawesome.css" rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css" href="~/assets/css/preloader.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="~/assets/css/app.css" rel="stylesheet">
+
+</head>
+
+
+<body class="layout-sticky-subnav layout-default " style="font-family:'Palatino Linotype'">
+    <div class="preloader">
+        <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+        <!-- Header -->
+        <div id="header" class="mdk-header mdk-header--bg-dark bg-dark js-mdk-header mb-0" data-effects="parallax-background waterfall" data-fixed data-condenses>
+            <div class="mdk-header__bg">
+                <div class="mdk-header__bg-front" style="background-image: url(assets/images/photodune-4161018-group-of-students-m.jpg);"></div>
+            </div>
+            <div class="mdk-header__content justify-content-center">
+
+                <div class="navbar navbar-expand navbar-dark-dodger-blue bg-transparent will-fade-background" id="default-navbar" data-primary>
+                    <!-- Navbar toggler -->
+                    <button class="navbar-toggler w-auto mr-16pt d-block rounded-0" type="button" data-toggle="sidebar">
+                        <span class="material-icons">short_text</span>
+                    </button>
+                    <!-- Navbar Brand -->
+                    <a href="/Back" class="navbar-brand mr-16pt">
+                        <!-- <img class="navbar-brand-icon" src="~/assets/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
+                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+
+                            <span class="avatar-title rounded bg-primary"><img src="~/assets/images/illustration/student/128/white.svg" alt="logo" class="img-fluid"></span>
+
+                        </span>
+                        <span class="d-none d-lg-block">KhanExam | Admin Panel</span>
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
+                        <li class="nav-item active">
+                            <a href="/Home/Index" class="nav-link">Ana Səhifə</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="/Home/Blog" class="nav-link">Xəbərlər</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="/Home/About" class="nav-link">Haqqımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/ExamVideo/" class="nav-link">İmtahanda necə iştirak etməli?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/ExamVideo/Index/" class="nav-link"> => Videonun dəyiş</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav ml-auto mr-0">
+                        @if (Session["UserName"] != null)
+                        {
+                            <li class="nav-item">
+                                <span style="color:white">@Session["UserName"]</span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Account/LogOut/" class="nav-link" data-toggle="tooltip" data-title="Çıxış" data-placement="bottom" data-boundary="window"><i class="fa fa-sign-out-alt">Çıxış</i></a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a href="/Account/Login/" class="nav-link" data-toggle="tooltip" data-title="Giriş" data-placement="bottom" data-boundary="window"><i class="material-icons">lock_open</i>Daxil Ol</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- // END Header -->
+        <!-- Header Layout Content -->
+        <div class="mdk-header-layout__content page-content ">
+
+            <div class="bg-white border-bottom-2 py-16pt " style="padding-left:60px; padding-right:60px">
+                @RenderBody()
+            </div>
+        </div>
+        <!-- // END Header Layout Content -->
+
+        <div class="js-fix-footer2 bg-white border-top-2">
+            <div class="container page__container page-section d-flex flex-column" style="text-align:end">
+                <p class="text-50 small mt-n1 mb-0">Copyright 2020 &copy; All rights reserved | Create by <b>Khan</b></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- // END Header Layout -->
+    <!-- drawer -->
+    <div class="mdk-drawer js-mdk-drawer" id="default-drawer">
+        <div class="mdk-drawer__content">
+            <div class="sidebar sidebar-dark-dodger-blue sidebar-left" data-perfect-scrollbar>
+                <a href="/Back" class="sidebar-brand ">
+                    <!-- <img class="sidebar-brand-icon" src="~/assets/images/illustration/student/128/white.svg" alt="Luma"> -->
+                    <span class="avatar avatar-xl sidebar-brand-icon h-auto">
+                        <span class="avatar-title rounded bg-primary"><img src="~/assets/images/illustration/student/128/white.svg" class="img-fluid" alt="logo" /></span>
+                    </span>
+                    <span>KhanExam</span>
+                </a>
+
+                <div class="sidebar-heading">Sınaqlar</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/Exam/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-book-open"></i></span>
+                            <span class="sidebar-menu-text">İmtahanlar</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/ExamOption/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-pen-alt"></i></span>
+                            <span class="sidebar-menu-text">Doğru Cavablar</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/ExamResult/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-pen-alt"></i></span>
+                            <span class="sidebar-menu-text">Nəticələr</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <hr />
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/StudentOption/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-coins"></i></span>
+                            <span class="sidebar-menu-text">Şagirdlərin Cavabları</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/StudentAction/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-qrcode"></i></span>
+                            <span class="sidebar-menu-text">Giriş Kodları</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="sidebar-heading">İmtahan Ayarları</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/ExamType/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-cube"></i></span>
+                            <span class="sidebar-menu-text">İmtahan Tipi</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/ExamTypeParameter/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-cubes"></i></span>
+                            <span class="sidebar-menu-text">Tip Parametri</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/ExamParameter/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-dice-d6"></i></span>
+                            <span class="sidebar-menu-text">İmtahan Parametri</span>
+                        </a>
+                    </li>
+
+                    @*<li class="sidebar-menu-item">
+                <a class="sidebar-menu-button" data-toggle="collapse" href="#cms_menu">
+                    <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
+                    CMS
+                    <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                </a>
+                <ul class="sidebar-submenu collapse sm-indent" id="cms_menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="fixed-cms-dashboard.html">
+                            <span class="sidebar-menu-text">CMS Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="fixed-posts.html">
+                            <span class="sidebar-menu-text">Posts</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>*@
+
+                </ul>
+
+                <div class="sidebar-heading">İnterfeys</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/About/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-scroll"></i></span>
+                            <span class="sidebar-menu-text">Haqqımızda</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/Blog/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-newspaper"></i></span>
+                            <span class="sidebar-menu-text">Xəbərlər</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/ExamRule/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-feather-alt"></i></span>
+                            <span class="sidebar-menu-text">Qaydalar</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="sidebar-heading">Komponentlər</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/FreeTicket/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-ticket-alt"></i></span>
+                            <span class="sidebar-menu-text">Pulsuz Bilet</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/City/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-house-damage"></i></span>
+                            <span class="sidebar-menu-text">Şəhərlər</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/BookletOption/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-spell-check"></i></span>
+                            <span class="sidebar-menu-text">Variant</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/Grade/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-user-graduate"></i></span>
+                            <span class="sidebar-menu-text">Siniflər</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/Subject/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-book"></i></span>
+                            <span class="sidebar-menu-text">Fənnlər</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/SubjectSection/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-bookmark"></i></span>
+                            <span class="sidebar-menu-text">Mövzular</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/CourseGroup/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-layer-group"></i></span>
+                            <span class="sidebar-menu-text">Kurs Qrupları</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/QuestionType/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-question-circle"></i></span>
+                            <span class="sidebar-menu-text">Sual Tipləri</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="sidebar-heading">İstİfadəçİlər</div>
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/Student/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-graduation-cap"></i></span>
+                            <span class="sidebar-menu-text">Şagirdlər</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a class="sidebar-menu-button" href="/Admin/Index">
+                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left"><i class="fa fa-mask"></i></span>
+                            <span class="sidebar-menu-text">Adminlər</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- // END drawer -->
+    <!-- jQuery -->
+    <script src="~/assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="~/assets/vendor/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="~/assets/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- DOM Factory -->
+    <script src="~/assets/vendor/dom-factory.js"></script>
+
+    <!-- MDK -->
+    <script src="~/assets/vendor/material-design-kit.js"></script>
+
+    <!-- Fix Footer -->
+    <script src="~/assets/vendor/fix-footer.js"></script>
+
+    <!-- App JS -->
+    <script src="~/assets/js/app.js"></script>
+
+
+
+    <script>
+        (function () {
+            'use strict';
+            var headerNode = document.querySelector('.mdk-header')
+            var layoutNode = document.querySelector('.mdk-header-layout')
+            var componentNode = layoutNode ? layoutNode : headerNode
+
+            componentNode.addEventListener('domfactory-component-upgraded', function () {
+                headerNode.mdkHeader.eventTarget.addEventListener('scroll', function () {
+                    var progress = headerNode.mdkHeader.getScrollState().progress
+                    var navbarNode = headerNode.querySelector('#default-navbar')
+                    navbarNode.classList.toggle('bg-transparent', progress <= 0.2)
+                })
+            })
+        })()</script>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,103 @@
+﻿@model ExamAndQuiz.Models.OptionAndParameter
+
+@{
+    ViewBag.Title = "Yenilə";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+    int saygac = 0;
+    string[] cavab = null;
+    if (Model.MyExamOption.Cavablar != "Cavablar Daxil Edilməyib")
+    {
+        cavab = Model.MyExamOption.Cavablar.Split(new string[] { "|" }, StringSplitOptions.None);
+    }
+}
+
+    <h2>Yenilə</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.MyExamOption.ID)
+        @Html.HiddenFor(model => model.MyExamOption.ImtahanID)
+        @Html.HiddenFor(model => model.MyExamOption.VariantID)
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MyExamOption.ImtahanID, "ImtahanID", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-12">
+                        @Html.DropDownList("ImtahanID", null, htmlAttributes: new { @class = "form-control", disabled = "disabled " })
+                        @Html.ValidationMessageFor(model => model.MyExamOption.ImtahanID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MyExamOption.VariantID, "VariantID", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-12">
+                        @Html.DropDownList("VariantID", null, htmlAttributes: new { @class = "form-control", disabled = "disabled " })
+                        @Html.ValidationMessageFor(model => model.MyExamOption.VariantID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MyExamOption.Cavablar, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-12">
+                @foreach (var item in Model.MyExamParameter)
+                {
+                    <h4 style="margin-bottom:8px; margin-top:16px">@item.Subject.Fenn</h4>
+                    <div class="row" style="text-align:center">
+
+                        @for (int i = 0; i < item.UmumiSualSayi; i++)
+                        {
+                            saygac++;
+                            if (item.AciqSualSayi != 0)
+                            {
+                                string[] massiv = item.AciqSuallar.Split(',');
+                                if (massiv.Contains(saygac.ToString()))
+                                {
+                                        <input type="text" class="form-control" name="InputCavablar" value="@((cavab == null)? "": cavab[saygac-1])" style="width:50px; height: 30px; margin:5px; border-color:red; border-radius:12px" required="" placeholder="@saygac" />
+
+                                }
+                                else
+                                {
+
+                                        <input type="text" class="form-control" name="InputCavablar" value="@((cavab == null)? "": cavab[saygac-1])" style="width:50px; height: 30px; margin:5px; border-color:blue; border-radius:12px" maxlength="1" required="" placeholder="@saygac" />
+
+                                }
+                            }
+                            else
+                            {
+ 
+                                    <input type="text" class="form-control" name="InputCavablar" value="@((cavab == null)? "": cavab[saygac-1])" style="width:50px; height: 30px; margin:5px; border-color:blue; border-radius:12px" maxlength="1" required="" placeholder="@saygac" />
+
+                            }
+                        }
+                    </div>
+                }
+                @*@Html.EditorFor(model => model.MyExamOption.Cavablar, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.MyExamOption.Cavablar, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Yenilə" class="btn btn-outline-info" />
+                <a href="/ExamOption/Index" class="btn btn-outline-dark">Geri</a>
+            </div>
+        </div>
+    </div>
+}
+
+
+

@@ -1,0 +1,8 @@
+﻿@model ExamAndQuiz.Models.ExamVideo
+
+
+<video controls="controls">
+    <source src="@Url.Content(Model.VideoURL)" type="video/mp4" />
+    <source src="@Url.Content(Model.VideoURL)" type="video/webm" />
+    <source src="@Url.Content(Model.VideoURL)" type="video/ogg" />
+</video>

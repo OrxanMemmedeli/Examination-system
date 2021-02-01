@@ -1,0 +1,230 @@
+﻿@model ExamAndQuiz.Models.ExamAndQuestions
+
+@{
+    Layout = null;
+
+    string[] variant = new string[] { "A", "B", "C", "D", "E" };
+    string[] m;
+
+}
+
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@Model.MyExam.Ad | KhanExam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon-1.png">
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="~/assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Fix Footer CSS -->
+    <link type="text/css" href="~/assets/vendor/fix-footer.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="~/assets/css/material-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="~/assets/css/fontawesome.css" rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css" href="~/assets/css/preloader.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="~/assets/css/app.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/web3/assets/css/style.css">
+
+
+
+
+</head>
+
+
+<body class="layout-sticky-subnav layout-default " style="font-family:'Palatino Linotype'" onkeydown="return (event.keyCode != 116)">
+
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+
+        <div class="mdk-header-layout__content page-content " style="background-color:#f3fff3; padding-top:55px">
+
+            <div class="" style="padding-left:60px; padding-right:60px; background-color:#f3fff3">
+
+                <h2 style="margin-bottom:45px">@Model.MyExam.Ad</h2>
+                <div class="row">
+
+                </div>
+
+                <div class="row align-items-start" style="font-family:'Palatino Linotype'">
+                    <div class="col-md-8">
+                        @Html.Action("Questions", "Home", new { id = Model.MyExam.ID })
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-lg-12">
+
+                            <div class="page-separator">
+                                <div class="page-separator__text">İmtahan müddəti </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <h3>Müddət : <Span style="color:goldenrod">@Model.MyExam.Muddet_deqiqe</Span> dəqiqə</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body d-flex flex-column align-items-center justify-content-center p-24pt">
+                                    <div class="mb-24pt d-inline-flex flex-column text-center">
+                                        <p>
+                                            İmtahan Sonuna Qalan Vaxt
+                                            <br />
+                                            <i class="material-icons text-50 icon-32pt">access_time</i>
+                                        </p>
+                                        <div class="d-flex align-items-center text-center ">
+
+                                            @Html.Action("Timer", "Home", new { id = Model.MyExam.ID })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h3>Şagird : <Span style="color:goldenrod">@Session["UserName"]</Span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <a href="#" class="btn btn-accent">İMTAHANI BİTİR</a>
+                            </div>
+                            <div class="list-group list-group-flush">
+                                <div class="list-group-item d-flex">
+                                    <!-- foreach olacaq. her fenn ucun dovr edib dovr daxilinde yeni dovr yaranaraq class rov tipinde maksimim  -->
+                                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+                                    <a href="#" class="btn btn-outline-accent" style="width:40px; height:40px;margin:5px">115</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- // END Header Layout Content -->
+
+        <div class="js-fix-footer2 bg-white border-top-2">
+            <div class="footer-wrappper">
+                <div class="footer-area footer-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-8">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="single-footer-caption mb-30">
+                                        <div class="footer-tittle">
+                                            <div class="footer-pera">
+                                                <p>Mövcud sistem TDV Hilal Kursları tərəfindən "Online İmtahanların" keçirilməsi üçün nəzərdə tutulmuşdur.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="row">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.youtube.com/channel/UCBIfCxVBPhW7qnqH_WXPbPg" target="_blank"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.facebook.com/tdvhilalkurs" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom-area">
+                        <div class="container">
+                            <div class="footer-border">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-xl-12 ">
+                                        <div class="footer-copy-right text-center">
+                                            <p class="text-50" style="font-family:'Palatino Linotype'">Copyright 2020 &copy; All rights reserved | Create by <b>Khan</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- // END Header Layout -->
+    <!-- jQuery -->
+    <script src="~/assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="~/assets/vendor/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="~/assets/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- DOM Factory -->
+    <script src="~/assets/vendor/dom-factory.js"></script>
+
+    <!-- MDK -->
+    <script src="~/assets/vendor/material-design-kit.js"></script>
+
+    <!-- Fix Footer -->
+    <script src="~/assets/vendor/fix-footer.js"></script>
+
+    <!-- App JS -->
+    <script src="~/assets/js/app.js"></script>
+
+    <script>
+        document.onkeydown = function (event) {
+            if (event.keyCode == 116) {
+                event.preventDefault();
+            }
+        }
+    </script>
+
+    <script>
+        (function () {
+            'use strict';
+            var headerNode = document.querySelector('.mdk-header')
+            var layoutNode = document.querySelector('.mdk-header-layout')
+            var componentNode = layoutNode ? layoutNode : headerNode
+
+            componentNode.addEventListener('domfactory-component-upgraded', function () {
+                headerNode.mdkHeader.eventTarget.addEventListener('scroll', function () {
+                    var progress = headerNode.mdkHeader.getScrollState().progress
+                    var navbarNode = headerNode.querySelector('#default-navbar')
+                    navbarNode.classList.toggle('bg-transparent', progress <= 0.2)
+                })
+            })
+        })()
+    </script>
+</body>
+
+</html>
+
+@*@Html.ActionLink("Next", "Game", new { @id = Model.id + 1 })*@

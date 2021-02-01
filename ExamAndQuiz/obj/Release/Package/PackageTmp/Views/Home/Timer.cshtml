@@ -1,0 +1,29 @@
+﻿@model ExamAndQuiz.Models.Exam
+
+<h1 id="demo" class="m-0 sayac">
+    <span>
+    </span>
+</h1>
+
+<script>
+
+    var distance = @Model.Muddet_deqiqe * 60;
+
+    var x = setInterval(function () {
+
+        distance = distance - 1;
+
+
+        var hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
+        var minutes = Math.floor((distance % (60 * 60)) / (60));
+        var seconds = Math.floor(distance % (60));
+
+        document.getElementById("demo").innerHTML = hours + " : "
+            + minutes + " : " + seconds;
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>

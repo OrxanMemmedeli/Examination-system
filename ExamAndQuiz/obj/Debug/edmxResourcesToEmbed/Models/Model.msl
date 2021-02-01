@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineExamModelStoreContainer" CdmEntityContainer="OnlineExamEntities">
+    <EntitySetMapping Name="Abouts">
+      <EntityTypeMapping TypeName="OnlineExamModel.About">
+        <MappingFragment StoreEntitySet="About">
+          <ScalarProperty Name="Unvan" ColumnName="Unvan" />
+          <ScalarProperty Name="Facebook" ColumnName="Facebook" />
+          <ScalarProperty Name="Youtube" ColumnName="Youtube" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="WhatsApp" ColumnName="WhatsApp" />
+          <ScalarProperty Name="Mobil" ColumnName="Mobil" />
+          <ScalarProperty Name="Haqqimizda" ColumnName="Haqqimizda" />
+          <ScalarProperty Name="SehifeBasliq" ColumnName="SehifeBasliq" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="OnlineExamModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="QeydiyyatTarixi" ColumnName="QeydiyyatTarixi" />
+          <ScalarProperty Name="Parol" ColumnName="Parol" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blogs">
+      <EntityTypeMapping TypeName="OnlineExamModel.Blog">
+        <MappingFragment StoreEntitySet="Blog">
+          <ScalarProperty Name="Tarix" ColumnName="Tarix" />
+          <ScalarProperty Name="FotoURL" ColumnName="FotoURL" />
+          <ScalarProperty Name="Melumat" ColumnName="Melumat" />
+          <ScalarProperty Name="Basliq" ColumnName="Basliq" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BookletOptions">
+      <EntityTypeMapping TypeName="OnlineExamModel.BookletOption">
+        <MappingFragment StoreEntitySet="BookletOption">
+          <ScalarProperty Name="Variant" ColumnName="Variant" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="OnlineExamModel.City">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="Seher" ColumnName="Seher" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseGroups">
+      <EntityTypeMapping TypeName="OnlineExamModel.CourseGroup">
+        <MappingFragment StoreEntitySet="CourseGroup">
+          <ScalarProperty Name="Qrup" ColumnName="Qrup" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exams">
+      <EntityTypeMapping TypeName="OnlineExamModel.Exam">
+        <MappingFragment StoreEntitySet="Exam">
+          <ScalarProperty Name="Imtahan" ColumnName="Imtahan" />
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="TipParametrID" ColumnName="TipParametrID" />
+          <ScalarProperty Name="PDFFileUrl" ColumnName="PDFFileUrl" />
+          <ScalarProperty Name="FotoURL" ColumnName="FotoURL" />
+          <ScalarProperty Name="Giris" ColumnName="Giris" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Muddet_deqiqe" ColumnName="Muddet_deqiqe" />
+          <ScalarProperty Name="Saat" ColumnName="Saat" />
+          <ScalarProperty Name="Tarix" ColumnName="Tarix" />
+          <ScalarProperty Name="SinifID" ColumnName="SinifID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamQuestions">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamQuestion">
+        <MappingFragment StoreEntitySet="ExamQuestion">
+          <ScalarProperty Name="YaranmaTarixi" ColumnName="YaranmaTarixi" />
+          <ScalarProperty Name="SualTipi" ColumnName="SualTipi" />
+          <ScalarProperty Name="Cavablar" ColumnName="Cavablar" />
+          <ScalarProperty Name="SualMetni" ColumnName="SualMetni" />
+          <ScalarProperty Name="SualSirasi" ColumnName="SualSirasi" />
+          <ScalarProperty Name="TipId" ColumnName="TipId" />
+          <ScalarProperty Name="FennId" ColumnName="FennId" />
+          <ScalarProperty Name="ImtahanId" ColumnName="ImtahanId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamOptions">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamOption">
+        <MappingFragment StoreEntitySet="ExamOptions">
+          <ScalarProperty Name="Cavablar" ColumnName="Cavablar" />
+          <ScalarProperty Name="VariantID" ColumnName="VariantID" />
+          <ScalarProperty Name="ImtahanID" ColumnName="ImtahanID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamParameters">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamParameter">
+        <MappingFragment StoreEntitySet="ExamParameter">
+          <ScalarProperty Name="AciqSehvBal" ColumnName="AciqSehvBal" />
+          <ScalarProperty Name="SehvBal" ColumnName="SehvBal" />
+          <ScalarProperty Name="AciqSuallar" ColumnName="AciqSuallar" />
+          <ScalarProperty Name="AciqSualSayi" ColumnName="AciqSualSayi" />
+          <ScalarProperty Name="UmumiSualSayi" ColumnName="UmumiSualSayi" />
+          <ScalarProperty Name="Bal" ColumnName="Bal" />
+          <ScalarProperty Name="FenninID" ColumnName="FenninID" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+          <ScalarProperty Name="TipParametrID" ColumnName="TipParametrID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamResults">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamResult">
+        <MappingFragment StoreEntitySet="ExamResult">
+          <ScalarProperty Name="Tarix" ColumnName="Tarix" />
+          <ScalarProperty Name="Yer" ColumnName="Yer" />
+          <ScalarProperty Name="Bal" ColumnName="Bal" />
+          <ScalarProperty Name="SehvSayi" ColumnName="SehvSayi" />
+          <ScalarProperty Name="DuzSayi" ColumnName="DuzSayi" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="ImtahanID" ColumnName="ImtahanID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamRules">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamRule">
+        <MappingFragment StoreEntitySet="ExamRule">
+          <ScalarProperty Name="Elan" ColumnName="Elan" />
+          <ScalarProperty Name="Cap" ColumnName="Cap" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+          <ScalarProperty Name="Qayda" ColumnName="Qayda" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamTypes">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamType">
+        <MappingFragment StoreEntitySet="ExamType">
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamTypeParameters">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamTypeParameter">
+        <MappingFragment StoreEntitySet="ExamTypeParameter">
+          <ScalarProperty Name="TipID" ColumnName="TipID" />
+          <ScalarProperty Name="FennSayi" ColumnName="FennSayi" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamVideos">
+      <EntityTypeMapping TypeName="OnlineExamModel.ExamVideo">
+        <MappingFragment StoreEntitySet="ExamVideo">
+          <ScalarProperty Name="VideoURL" ColumnName="VideoURL" />
+          <ScalarProperty Name="Melumat" ColumnName="Melumat" />
+          <ScalarProperty Name="Basliq" ColumnName="Basliq" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FreeTickets">
+      <EntityTypeMapping TypeName="OnlineExamModel.FreeTicket">
+        <MappingFragment StoreEntitySet="FreeTicket">
+          <ScalarProperty Name="SagirdKodu" ColumnName="SagirdKodu" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Grades">
+      <EntityTypeMapping TypeName="OnlineExamModel.Grade">
+        <MappingFragment StoreEntitySet="Grade">
+          <ScalarProperty Name="Sinif" ColumnName="Sinif" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionBanks">
+      <EntityTypeMapping TypeName="OnlineExamModel.QuestionBank">
+        <MappingFragment StoreEntitySet="QuestionBank">
+          <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+          <ScalarProperty Name="ImtahanID" ColumnName="ImtahanID" />
+          <ScalarProperty Name="TipID" ColumnName="TipID" />
+          <ScalarProperty Name="YaranmaTarixi" ColumnName="YaranmaTarixi" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="FennID" ColumnName="FennID" />
+          <ScalarProperty Name="Movzu" ColumnName="Movzu" />
+          <ScalarProperty Name="Cetinlik" ColumnName="Cetinlik" />
+          <ScalarProperty Name="Cavab" ColumnName="Cavab" />
+          <ScalarProperty Name="Sual" ColumnName="Sual" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionTypes">
+      <EntityTypeMapping TypeName="OnlineExamModel.QuestionType">
+        <MappingFragment StoreEntitySet="QuestionType">
+          <ScalarProperty Name="Tip" ColumnName="Tip" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDFFiles">
+      <EntityTypeMapping TypeName="OnlineExamModel.PDFFile">
+        <MappingFragment StoreEntitySet="PDFFile">
+          <ScalarProperty Name="ImtahanID" ColumnName="ImtahanID" />
+          <ScalarProperty Name="FileUrl" ColumnName="FileUrl" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="OnlineExamModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="FotoURL" ColumnName="FotoURL" />
+          <ScalarProperty Name="SeherID" ColumnName="SeherID" />
+          <ScalarProperty Name="QeydiyyatTarixi" ColumnName="QeydiyyatTarixi" />
+          <ScalarProperty Name="Parol" ColumnName="Parol" />
+          <ScalarProperty Name="QrupID" ColumnName="QrupID" />
+          <ScalarProperty Name="MobilNomre" ColumnName="MobilNomre" />
+          <ScalarProperty Name="WhatsApp" ColumnName="WhatsApp" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DogumTarixi" ColumnName="DogumTarixi" />
+          <ScalarProperty Name="Cins" ColumnName="Cins" />
+          <ScalarProperty Name="SinifID" ColumnName="SinifID" />
+          <ScalarProperty Name="SagirdKodu" ColumnName="SagirdKodu" />
+          <ScalarProperty Name="SVNomresi" ColumnName="SVNomresi" />
+          <ScalarProperty Name="AtaAdi" ColumnName="AtaAdi" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentActions">
+      <EntityTypeMapping TypeName="OnlineExamModel.StudentAction">
+        <MappingFragment StoreEntitySet="StudentAction">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Tarix" ColumnName="Tarix" />
+          <ScalarProperty Name="GirisKodu" ColumnName="GirisKodu" />
+          <ScalarProperty Name="ImtahanID" ColumnName="ImtahanID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentOptions">
+      <EntityTypeMapping TypeName="OnlineExamModel.StudentOption">
+        <MappingFragment StoreEntitySet="StudentOptions">
+          <ScalarProperty Name="Tarix" ColumnName="Tarix" />
+          <ScalarProperty Name="Bal" ColumnName="Bal" />
+          <ScalarProperty Name="FennlerUzreNetice" ColumnName="FennlerUzreNetice" />
+          <ScalarProperty Name="Cavablar" ColumnName="Cavablar" />
+          <ScalarProperty Name="Bitirmek" ColumnName="Bitirmek" />
+          <ScalarProperty Name="ImtahanId" ColumnName="ImtahanId" />
+          <ScalarProperty Name="SagirdID" ColumnName="SagirdID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="OnlineExamModel.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="Fenn" ColumnName="Fenn" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubjectSections">
+      <EntityTypeMapping TypeName="OnlineExamModel.SubjectSection">
+        <MappingFragment StoreEntitySet="SubjectSection">
+          <ScalarProperty Name="FennID" ColumnName="FennID" />
+          <ScalarProperty Name="Movzu" ColumnName="Movzu" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="OnlineExamModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

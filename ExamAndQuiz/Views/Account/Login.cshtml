@@ -1,0 +1,115 @@
+﻿@model ExamAndQuiz.Models.User
+@{
+    Layout = null;
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="font-family:'Palatino Linotype'">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Giriş | KhanExam</title>
+
+    <link rel="icon" type="image/png" href="~/web2/images/icons/favicon.ico" />
+
+
+    <meta name="robots" content="noindex">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="~/assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Fix Footer CSS -->
+    <link type="text/css" href="~/assets/vendor/fix-footer.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="~/assets/css/material-icons.css" rel="stylesheet">
+
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="~/assets/css/fontawesome.css" rel="stylesheet">
+
+
+    <!-- Preloader -->
+    <link type="text/css" href="~/assets/css/preloader.css" rel="stylesheet">
+
+
+    <!-- App CSS -->
+    <link type="text/css" href="~/assets/css/app.css" rel="stylesheet">
+
+</head>
+
+
+<body class="layout-app ">
+    <div class="mdk-drawer-layout js-mdk-drawer-layout" data-push data-responsive-width="992px" style="        background-color: burlywood;
+        height: 1000px;
+        margin: 0;
+        padding: 0;
+        background-image: url('../../assets/images/login-page-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 100%;
+        background-position-y: 100%;">
+        <div class="mdk-drawer-layout__content page-content">
+            <div class="pt-32pt pt-sm-64pt pb-32pt">
+                <div class="container page__container" style="margin-top:15%">
+                    @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "col-md-5 p-0 mx-auto" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        if (ViewBag.Success != null)
+                        {
+
+                            <div class="col-lg-10 d-flex align-items-center">
+                                <div class="flex" style="max-width: 100%">
+                                    <div class="alert alert-soft-accent alert-dismissible fade show" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <div class="d-flex flex-wrap align-items-start">
+                                            <div class="mr-8pt">
+                                                <i class="material-icons">access_time</i>
+                                            </div>
+                                            <div class="flex" style="min-width: 180px">
+                                                <small class="text-black-100">
+                                                    <strong>Təbriklər - </strong> @ViewBag.Success
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        }
+                        <div class="form-group">
+                            <label class="form-label" style="color:white" for="email">E-mail:</label>
+                            <input id="email" name="@Html.NameFor(m => m.MyMail)" type="text" class="form-control" placeholder="Sizin email ünvanınız ..." required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" style="color:white" for="password">Şifrə:</label>
+                            <input id="password" name="@Html.NameFor(m => m.Password)" type="password" class="form-control" placeholder="Sizin şifrəniz ..." required="">
+                            <p class="text-right">
+                                <a href="/Account/ForgetPassword/" style="color:white" class="small">Sifrəni Unutmuşam</a>
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Daxil Ol</button>
+                            <a href="/Student/Create/" class="btn btn-primary">Qeydiyyat</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

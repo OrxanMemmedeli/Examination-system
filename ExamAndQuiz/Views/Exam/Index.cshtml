@@ -1,0 +1,105 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Exam>
+
+@{
+    ViewBag.Title = "İmtahanlar";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>İmtahanlar</h2>
+
+<p>
+    <a href="/Exam/Create" class="btn btn-outline-dark">Yeni İmtahan</a>
+</p>
+<table id="zero_config" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            @*<th>
+                Növü
+            </th>*@
+            <th>
+                Adı
+            </th>
+            <th>
+                Sinifi
+            </th>
+            <th>
+                Tarixi
+            </th>
+            <th>
+                Saatı
+            </th>
+            <th>
+                Muddeti
+            </th>
+            <th>
+                Görünsün
+            </th>
+            <th>
+                Aktivdir
+            </th>
+            <th>
+                Foto
+            </th>
+            <th>
+                PDF
+            </th>
+            <th>
+                Admin
+            </th>
+            <th>
+                İmtahan Tipi
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Imtahan)
+                </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade.ID)
+                </td>
+                <td>
+                    @item.Tarix.ToShortDateString()
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Saat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Muddet_deqiqe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Giris)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FotoURL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PDFFileUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Admin.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExamTypeParameter.Ad)
+                </td>
+                <td style="width:100px; text-align:center">
+                    <a href="/Exam/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+                    <a href="/ExamQuestion/Index/@item.ID"><i class="fa fa-desktop" style="color:mediumpurple"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

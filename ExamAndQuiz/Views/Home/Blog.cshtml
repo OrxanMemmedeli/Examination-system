@@ -1,0 +1,116 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<ExamAndQuiz.Models.Blog>
+
+@{
+    ViewBag.Title = "Xəbərlər";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+    int saygac = 1;
+}
+
+
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+
+<section class="timeline1 cid-sdGOdm434N" id="timeline1-26">
+
+
+    <div class="container">
+        <div class="title align-center">
+            <h3 class="mbr-section-title mbr-fonts-style display-2 mbr-pb-2">Xəbərlər</h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style display-5">Kurs haqqında vacib məlumatlar</h4>
+        </div>
+
+
+        <div class="timelines-container mbr-pt-4">
+            @foreach (var item in Model)
+            {
+                if (saygac % 2 == 0)
+                {
+                    <div class="timeline-element separline mbr-pb-4">
+                        <div class="timeline-wrap mbr-flex mbr-row-reverse">
+                            <div class="timeline-img-wrap mbr-col-sm-12 mbr-col-md-6 mbr-flex align-left">
+                                <div class="timeline-img-panel">
+                                    <amp-img class="placeholder-loader timeline-img" src="@(item.FotoURL != null ? Url.Content(item.FotoURL) : "")" layout="responsive" height="293" width="522.3398328690807" alt="">
+                                        <div placeholder="" class="placeholder">
+                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                                <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                                <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                            </svg>
+                                        </div>
+
+                                    </amp-img>
+                                </div>
+                            </div>
+                            <div class="timeline-item-wrap mbr-col-sm-12 mbr-col-md-6 mbr-flex mbr-column align-right">
+                                <div class="timeline-item-panel">
+                                    <div class="timeline-item mbr-pt-4 mbr-pb-4">
+                                        <div class="timeline-date-wrap">
+                                            <div class="timeline-date-panel">
+                                                <p class="timeline-date mbr-fonts-style display-5 mbr-pb-2">@item.Tarix.ToShortDateString()</p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-text-wrap">
+                                            <div class="timeline-text-content">
+                                                <h4 class="mbr-timeline-title mbr-fonts-style mbr-pb-2 display-2">@item.Basliq</h4>
+                                                <p class="mbr-timeline-text mbr-fonts-style display-7">
+                                                    @Html.Raw(item.Melumat)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="iconBackground"></span>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="timeline-element separline mbr-pb-4">
+                        <div class="timeline-wrap mbr-flex">
+                            <div class="timeline-img-wrap mbr-col-sm-12 mbr-col-md-6 mbr-flex align-right">
+                                <div class="timeline-img-panel">
+                                    <amp-img class="placeholder-loader timeline-img" src="@(item.FotoURL != null ? Url.Content(item.FotoURL) : "")" layout="responsive" height="348" width="522" alt="">
+                                        <div placeholder="" class="placeholder">
+                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+                                                <circle class="big" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="230" stroke-dashoffset="230" cx="150" cy="150" r="145"></circle>
+                                                <circle class="small" fill="none" stroke="#c2e0e0" stroke-width="3" stroke-dasharray="212" cx="150" cy="150" r="135"></circle>
+                                            </svg>
+                                        </div>
+
+                                    </amp-img>
+                                </div>
+                            </div>
+                            <div class="timeline-item-wrap mbr-col-sm-12 mbr-col-md-6 mbr-flex mbr-column align-left">
+                                <div class="timeline-item-panel">
+                                    <div class="timeline-item mbr-pt-4 mbr-pb-4">
+                                        <div class="timeline-date-wrap">
+                                            <div class="timeline-date-panel">
+                                                <p class="timeline-date mbr-fonts-style display-5 mbr-pb-2">@item.Tarix.ToShortDateString()</p>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-text-wrap">
+                                            <div class="timeline-text-content">
+                                                <h4 class="mbr-timeline-title mbr-fonts-style mbr-pb-2 display-2">@item.Basliq</h4>
+                                                <p class="mbr-timeline-text mbr-fonts-style display-7">
+                                                    @Html.Raw(item.Melumat)
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="iconBackground"></span>
+                        </div>
+                    </div>
+                }
+                saygac++;
+            }
+
+            @Html.PagedListPager(Model, page => Url.Action("Blog",
+                      new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+        </div>
+    </div>
+</section>

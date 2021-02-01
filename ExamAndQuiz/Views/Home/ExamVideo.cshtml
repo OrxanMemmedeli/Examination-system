@@ -1,0 +1,19 @@
+﻿@model ExamAndQuiz.Models.ExamVideo
+@{
+    ViewBag.Title = "ExamVideo";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+}
+
+
+<section class="youtube1 cid-sdGO1VhQU4" id="video1-25">
+
+    <div class="mbr-jc-c container">
+        <div class="title-block mbr-col-sm-12 mbr-col-md-12 mbr-m-auto mbr-px-4 mbr-pb-4 align-left">
+            <h2 class="mbr-section-title mbr-fonts-style mbr-black mbr-pb-2 display-1">@Model.Basliq</h2>
+            <h3 class="mbr-section-subtitle mbr-fonts-style mbr-black display-5">@Html.Raw(Model.Melumat)</h3>
+        </div>
+        <div class="video-block mbr-m-auto mbr-col-md-12">
+            @Html.Action("Exam", "Home")
+        </div>
+    </div>
+</section>

@@ -1,0 +1,266 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title | KhanExam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon-1.png">
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="~/assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Fix Footer CSS -->
+    <link type="text/css" href="~/assets/vendor/fix-footer.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="~/assets/css/material-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="~/assets/css/fontawesome.css" rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css" href="~/assets/css/preloader.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="~/assets/css/app.css" rel="stylesheet">
+
+    <link rel="canonical" href="https://193460.8b.io/">
+
+    <link amp-boilerplate href="~/webFront/style.min.css" rel="stylesheet" />
+
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&subset=cyrillic" rel="stylesheet">
+
+
+    <link amp-custom href="~/webFront/style.css" rel="stylesheet" />
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+</head>
+
+
+<body class="layout-sticky-subnav layout-default " style="font-family:'Palatino Linotype'">
+    <div class="preloader">
+        <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+        <amp-sidebar id="sidebar" class="cid-sdH1Yne1zI" layout="nodisplay" side="right">
+            <div class="builder-sidebar" id="builder-sidebar">
+                <button on="tap:sidebar.close" class="close-sidebar">
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item">
+                        <a class="nav-link mbr-bold link text-black display-7" href="/Home/Index/">Ana Səhifə</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mbr-bold link text-black display-7" href="/Home/Blog/">Xəbərlər</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mbr-bold link text-black display-7" href="/Home/About/">Haqqımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mbr-bold link text-black display-7" href="/Home/ExamVideo/">İstifadə Qaydası</a>
+                    </li>
+
+                </ul>
+
+
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+
+                    @if (Session["UserName"] != null)
+                    {
+                        if (Session["UserName"].ToString().Contains(" - Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link mbr-bold link text-black display-7"> @Session["UserName"]</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link mbr-bold link text-black display-7" href="/Student/Details/@Session["ID"]"> @Session["UserName"]</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link mbr-bold link text-black display-7" href="/Account/LogOut/"> => ÇIXIŞ</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link mbr-bold link text-black display-7" href="/Account/Login/">DAXİL OL</a>
+                        </li>
+                    }
+                </ul>
+
+
+            </div>
+        </amp-sidebar>
+        <section class="menu1 menu horizontal-menu cid-sdH1Yne1zI" id="menu1-28" style="height:30px; padding-top:0px">
+
+            <!-- <div class="menu-wrapper"> -->
+            <nav class="navbar navbar-dropdown navbar-expand-lg navbar-fixed-top">
+                <div class="menu-container container">
+                    <!-- SHOW LOGO -->
+                    <div class="navbar-brand">
+
+                        <span class="navbar-caption-wrap"><a class="navbar-caption mbr-bold text-black display-5" href="/Home/Index/">KhanExam</a></span>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+                        <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                            <li class="nav-item">
+                                <a class="nav-link mbr-bold link text-black display-7" href="/Home/Index/">Ana Səhifə</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mbr-bold link text-black display-7" href="/Home/Blog/">Xəbərlər</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mbr-bold link text-black display-7" href="/Home/About/">Haqqımızda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mbr-bold link text-black display-7" href="/Home/ExamVideo/">İstifadə Qaydası</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+
+                            @if (Session["UserName"] != null)
+                            {
+                                if (Session["UserName"].ToString().Contains(" - Admin"))
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link mbr-bold link text-black display-7"> @Session["UserName"]</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link mbr-bold link text-black display-7" href="/Student/Details/@Session["ID"]"> @Session["UserName"]</a>
+                                    </li>
+                                }
+                                <li class="nav-item">
+                                    <a class="nav-link mbr-bold link text-black display-7" href="/Account/LogOut/"> => ÇIXIŞ</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item" style="color:red">
+                                    <a class="nav-link mbr-bold link text-black display-7" href="/Account/Login/">DAXİL OL</a>
+                                </li>
+                            }
+                        </ul>
+
+                    </div>
+
+
+                    <button on="tap:sidebar.toggle" class="ampstart-btn hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </section>
+
+        <div class="mdk-header-layout__content page-content ">
+
+            <div class="" style="padding-left:60px; padding-right:60px; padding-top:50px">
+                @RenderBody()
+            </div>
+        </div>
+
+        <section class="footer1 cid-r0O2ddbugL" id="footer1-7">
+
+
+            <div class="footer-container container mbr-flex">
+                <div class="mbr-row mbr-px-2 link-items mbr-jc-c mbr-fonts-style display-7">
+                    <div class="copyright mbr-px-2 mbr-flex mbr-jc-c">
+                        <p class="mbr-text mbr-fonts-style mbr-white align-center display-7">Copyright 2020 &copy; All rights reserved | Create by Khan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- // END Header Layout -->
+    <!-- jQuery -->
+    <script src="~/assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="~/assets/vendor/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="~/assets/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- DOM Factory -->
+    <script src="~/assets/vendor/dom-factory.js"></script>
+
+    <!-- MDK -->
+    <script src="~/assets/vendor/material-design-kit.js"></script>
+
+    <!-- Fix Footer -->
+    <script src="~/assets/vendor/fix-footer.js"></script>
+
+    <!-- App JS -->
+    <script src="~/assets/js/app.js"></script>
+
+    
+
+    <script>
+        (function () {
+            'use strict';
+            var headerNode = document.querySelector('.mdk-header')
+            var layoutNode = document.querySelector('.mdk-header-layout')
+            var componentNode = layoutNode ? layoutNode : headerNode
+
+            componentNode.addEventListener('domfactory-component-upgraded', function () {
+                headerNode.mdkHeader.eventTarget.addEventListener('scroll', function () {
+                    var progress = headerNode.mdkHeader.getScrollState().progress
+                    var navbarNode = headerNode.querySelector('#default-navbar')
+                    navbarNode.classList.toggle('bg-transparent', progress <= 0.2)
+                })
+            })
+        })()</script>
+
+    <script language=JavaScript src="~/assets/js/page-click.js"></script>
+</body>
+
+</html>

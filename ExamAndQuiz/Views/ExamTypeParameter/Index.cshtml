@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.ExamTypeParameter>
+
+@{
+    ViewBag.Title = "Tip Parametri";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Tip Parametri</h2>
+
+<p>
+    <a href="/ExamTypeParameter/Create" class="btn btn-outline-dark">Yeni Parametr</a>
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FennSayi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExamType.Adi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FennSayi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExamType.Adi)
+        </td>
+        <td style="width:100px; text-align:center">
+            <a href="/ExamTypeParameter/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+            <a href="/ExamTypeParameter/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+        </td>
+    </tr>
+}
+
+</table>

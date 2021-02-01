@@ -1,0 +1,166 @@
+﻿@model ExamAndQuiz.Models.ExamQuestion
+
+@{
+    ViewBag.Title = "Yenilə";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Yenilə</h2>
+
+@using (Html.BeginForm("Edit", "ExamQuestion", null, FormMethod.Post, new {@id = "myForm", @name = "myForm"}))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+        @Html.HiddenFor(model => model.Exam.ID)
+        @Html.HiddenFor(model => model.Subject.ID)
+        @Html.HiddenFor(model => model.ExamTypeParameter.ID)
+        @Html.HiddenFor(model => model.ExamTypeParameter.ID)
+        @Html.HiddenFor(model => model.SualSirasi)
+        @Html.HiddenFor(model => model.YaranmaTarixi)
+        <span id="sualMetnibutton" style="width: 0px; height: 0px; display: inline-block; overflow: hidden;">@Model.SualMetni</span>
+        <span id="cavablarbutton" style="width: 0px; height: 0px; display: inline-block; overflow: hidden;">@Model.Cavablar</span>
+
+
+        <div class="form-group">
+            <h2>@Html.LabelFor(model => model.SualMetni, htmlAttributes: new { @class = "control-label col-md-2" })</h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <textarea id="editor" name="SualMetni" value="@Model.SualMetni">@Model.SualMetni</textarea>
+                    @Html.ValidationMessageFor(model => model.SualMetni, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-5">
+                    @Html.Raw(Model.SualMetni)
+                </div>
+            </div>
+
+        </div>
+
+        <div class="form-group">
+            <h2>@Html.LabelFor(model => model.Cavablar, htmlAttributes: new { @class = "control-label col-md-2" })</h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <textarea id="cavablar" name="Cavablar" value="@Model.Cavablar">@Model.Cavablar</textarea>
+                    @Html.ValidationMessageFor(model => model.Cavablar, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-5">
+                    @Html.Raw(Model.Cavablar)
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Yenilə" class="btn btn-outline-info" />
+                <a href="/ExamQuestion/Index/@Model.ImtahanId" class="btn btn-outline-dark">Geri</a>
+                <a href="/ExamQuestion/Clear/@Model.ID" class="btn btn-outline-accent">Təmizlə</a>
+            </div>
+        </div>
+    </div>
+}
+
+
+@*<input onclick='input()' type='button' value='Kopyala' id='button'>*@
+
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://www.wiris.net/demo/plugins/app/WIRISplugins.js?viewer=image" referrerpolicy="origin"></script>
+
+<script>
+    function input() {
+        var sual = @Model.SualMetni;
+        var cavab = @Model.Cavablar;
+
+        document.forms.myForm.SualMetni.value = sual;
+        document.forms.myForm.Cavablar.value = cavab;
+    }
+</script>
+
+
+<script>
+    tinymce.init({
+        selector: '#editor',
+        menubar: false,
+        plugins: "link image code emoticons hr lists charmap table media image",
+        external_plugins: { tiny_mce_wiris: 'https://www.wiris.net/demo/plugins/tiny_mce/plugin.js' },
+        fontsize_formats: "8pt 10pt 12pt 13pt 14pt 18pt 24pt 36pt",
+        toolbar1: 'undo redo  |  fontsizeselect | bold italic underline strikethrough | superscript subscript |bullist numlist | removeformat| alignleft aligncenter alignright alignjustify | forecolor',
+        toolbar2: 'outdent indent | tiny_mce_wiris_formulaEditor charmap link emoticons charmap hr | media image code | table tabledelete | tableprops tablerowprops tablecellprops | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+        toolbar3: '',
+        image_title: true,
+        // enable automatic uploads of images represented by blob or data URIs
+        automatic_uploads: true,
+        // add custom filepicker only to Image dialog
+        file_picker_types: 'image',
+        file_picker_callback: function (cb, value, meta) {
+            var input = document.createElement('input');
+            input.setAttribute('type', 'file');
+            input.setAttribute('accept', 'image/*');
+
+            input.onchange = function () {
+                var file = this.files[0];
+                var reader = new FileReader();
+
+                reader.onload = function () {
+                    var id = 'blobid' + (new Date()).getTime();
+                    var blobCache = tinymce.activeEditor.editorUpload.blobCache;
+                    var base64 = reader.result.split(',')[1];
+                    var blobInfo = blobCache.create(id, file, base64);
+                    blobCache.add(blobInfo);
+
+                    // call the callback and populate the Title field with the file name
+                    cb(blobInfo.blobUri(), { title: file.name });
+                };
+                reader.readAsDataURL(file);
+            };
+
+            input.click();
+        }
+
+    });
+</script>
+
+<script>
+    tinymce.init({
+        selector: '#cavablar',
+        menubar: false,
+        plugins: "link image code emoticons hr lists charmap table media image",
+        external_plugins: { tiny_mce_wiris: 'https://www.wiris.net/demo/plugins/tiny_mce/plugin.js' },
+        fontsize_formats: "8pt 10pt 12pt 13pt 14pt 18pt 24pt 36pt",
+        toolbar1: 'undo redo  |  fontsizeselect | bold italic underline strikethrough | superscript subscript |bullist numlist | removeformat| alignleft aligncenter alignright alignjustify | forecolor',
+        toolbar2: 'outdent indent | tiny_mce_wiris_formulaEditor charmap link emoticons charmap hr | media image code | table tabledelete | tableprops tablerowprops tablecellprops | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol',
+        image_title: true,
+        // enable automatic uploads of images represented by blob or data URIs
+        automatic_uploads: true,
+        // add custom filepicker only to Image dialog
+        file_picker_types: 'image',
+        file_picker_callback: function (cb, value, meta) {
+            var input = document.createElement('input');
+            input.setAttribute('type', 'file');
+            input.setAttribute('accept', 'image/*');
+
+            input.onchange = function () {
+                var file = this.files[0];
+                var reader = new FileReader();
+
+                reader.onload = function () {
+                    var id = 'blobid' + (new Date()).getTime();
+                    var blobCache = tinymce.activeEditor.editorUpload.blobCache;
+                    var base64 = reader.result.split(',')[1];
+                    var blobInfo = blobCache.create(id, file, base64);
+                    blobCache.add(blobInfo);
+
+                    // call the callback and populate the Title field with the file name
+                    cb(blobInfo.blobUri(), { title: file.name });
+                };
+                reader.readAsDataURL(file);
+            };
+
+            input.click();
+        }
+
+    });
+</script>
+

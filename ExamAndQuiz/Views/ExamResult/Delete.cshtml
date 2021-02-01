@@ -1,0 +1,76 @@
+﻿@model ExamAndQuiz.Models.ExamResult
+
+@{
+    ViewBag.Title = "Sil";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Sil</h2>
+
+<h3>Silinən məlumatlar bərpa edilə bilməz</h3>
+<div>
+    <hr />
+    <dl class="form-horizontal">
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Exam.Ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Exam.Ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student.Ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student.Ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DuzSayi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DuzSayi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SehvSayi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SehvSayi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Yer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Yer)
+        </dd>
+
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-outline-info" />
+            <a href="/ExamResult/Index" class="btn btn-outline-dark">Geri</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,228 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Student>
+@using ExamAndQuiz.Tools
+@{
+    ViewBag.Title = "Şagirdlər";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css">
+
+<h2>Şagirdlər</h2>
+
+<p>
+    <a href="/Student/Create" class="btn btn-outline-dark">Yeni Şagird</a>
+    <a href="~/assets/Kursa Qeydiyyat.pdf" class="btn " target="_blank">YENİ ŞAGİRD (PDF) - PRİNT</a>
+</p>
+
+<table id="zero_config" class="">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Soyad)
+            </th>
+            <th>
+                ATA ADI
+            </th>
+            <th>
+                VƏSİQƏ №
+            </th>
+            <th>
+                ŞAGİRD KODU
+            </th>
+            <th>
+                CİNS
+            </th>
+            <th>
+                DOĞUM TARİXİ
+            </th>
+            <th>
+                E-MAİL
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WhatsApp)
+            </th>
+            <th>
+                NÖMRƏ
+            </th>
+            <th>
+                QRUP
+            </th>
+            <th>
+                ŞİFRƏ
+            </th>
+            <th>
+                QEYDİYYAT
+            </th>
+            <th>
+                ŞƏHƏR
+            </th>
+            <th>
+                SİNİF
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Soyad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AtaAdi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SVNomresi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SagirdKodu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cins)
+                </td>
+                <td>
+                    @item.DogumTarixi.ToString("dd/MM/yyyy")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.WhatsApp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MobilNomre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CourseGroup.Qrup)
+                </td>
+                <td>
+                    @Encryption.PassDecrypt(item.Parol)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QeydiyyatTarixi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City.Seher)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Grade.Sinif)
+                </td>
+                <td style="width:100px; text-align:center">
+                    <a href="/Student/EditStudent/@Encryption.Encrypt(item.ID.ToString())"><i class="fa fa-edit" style="color:green"></i></a> |
+                    <a href="/Student/Details/@Encryption.Encrypt(item.ID.ToString())"><i class="fa fa-desktop" style="color:mediumpurple"></i></a> |
+                    <a href="/Student/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a> |
+                    <a href="/Student/Edit/@item.ID"><i class="fa fa-user-edit" style="color:blue"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+
+<script>
+    $('#zero_config').dataTable({
+        order: [[15, "asc"]],
+        lengthMenu: [
+            [10, 25, 50, -1],
+            ['10 sətr', '25 sətr', '50 sətr', 'Hamısını göstər']
+        ],
+        dom: 'Bfrtip',
+        buttons: [
+            'pageLength',
+            'colvis',
+            {
+                extend: 'copyHtml5',
+                exportOptions: {
+                    columns: ':visible'
+                }
+            },
+            {
+                extend: 'excelHtml5',
+                orientation: 'landscape',
+                pageSize: 'A4',
+                exportOptions: {
+                    columns: ':visible'
+                }
+            },
+            {
+                extend: 'pdfHtml5',
+                pageSize: 'A4',
+                exportOptions: {
+                    columns: ':visible'
+                }
+            },
+            //'print'
+            {
+                //    //extend: 'print',
+                //    //exportOptions: {
+                //    //    columns: ':visible'
+                //    //}
+                extend: 'print',
+                orientation: true,
+                pageSize: 'A4',
+                autoPrint: true,
+                exportOptions: {
+                    columns: ':visible',
+                }
+            },
+        ],
+        language: {
+            "sDecimal": ",",
+            "sEmptyTable": "Cədvəldə məlumat yoxdur",
+            "sInfo": "Əks olunan sətr aralığı: _START_ və _END_ . (Ümumi sətr sayı: _TOTAL_)",
+            "sInfoEmpty": "Məlumat yoxdur",
+            "sInfoFiltered": "(_MAX_ sətr içerisindən tapılan)",
+            "sInfoPostFix": "",
+            "sInfoThousands": ".",
+            "sLengthMenu": "Əks olunan sətr sayı: _MENU_ ",
+            "sLoadingRecords": "Yüklənir...",
+            "sProcessing": "İşlənir...",
+            "sSearch": "Axtar:",
+            "sZeroRecords": "Axtarışa uyğun nəticə tapılmadı",
+            "oPaginate": {
+                "sFirst": "İlk",
+                "sLast": "Son",
+                "sNext": "Sonraki",
+                "sPrevious": "Əvvəlki"
+            },
+            "oAria": {
+                "sSortAscending": ": artan sütun sıralamasını aktivləşdir",
+                "sSortDescending": ": azalan sütun sıralamasını aktivləşdir"
+            },
+            "select": {
+                "rows": {
+                    "_": "%d sətr seçildi",
+                    "0": "",
+                    "1": "1 sətr seçildi"
+                }
+            },
+            "buttons": {
+                "copyTitle": "Məlumatlar kopyalandı.",
+                "copySuccess": "%d qeyd sətri kopyalandı",
+                "copy": "Kopyala",
+                "print": "Print",
+                "colvis": "Sütunları Gizlət",
+                "pageLength": "Sətr Sayı"
+            },
+        },
+    });
+</script>

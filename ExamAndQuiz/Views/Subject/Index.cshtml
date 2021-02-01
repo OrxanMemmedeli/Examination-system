@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Subject>
+
+@{
+    ViewBag.Title = "Fənnlər";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Fənnlər</h2>
+
+<p>
+    <a href="/Subject/Create" class="btn btn-outline-dark">Yeni Fənn</a>
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Fenn)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fenn)
+        </td>
+        <td style="width:100px; text-align:center">
+            <a href="/Subject/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+            <a href="/Subject/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+        </td>
+    </tr>
+}
+
+</table>

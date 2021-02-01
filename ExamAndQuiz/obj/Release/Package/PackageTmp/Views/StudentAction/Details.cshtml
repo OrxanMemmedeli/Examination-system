@@ -1,0 +1,104 @@
+﻿@model ExamAndQuiz.Models.İnvoice
+
+@{
+    Layout = null;
+}
+
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        @Model.MyStudentAction.Student.Ad @Model.MyStudentAction.Student.Soyad @Model.MyStudentAction.Student.AtaAdi (@Model.MyStudentAction.Student.SagirdKodu) -  @Model.MyStudentAction.Student.SVNomresi
+    </title>
+    <link rel="license" href="https://www.opensource.org/licenses/mit-license/">
+    <link href="~/web4Invoice/style.css" rel="stylesheet" />
+</head>
+<body style="font-family:'Palatino Linotype'">
+    <header>
+        <h1>
+            İmtahana Buraxılış Vərəqəsİ
+        </h1>
+        <address contenteditable>
+            @Model.MyAbout.Unvan
+            <br />
+            @Model.MyAbout.Mobil
+            <br />
+
+        </address>
+    </header>
+    <article>
+        <address contenteditable>
+            @Model.MyAbout.SehifeBasliq
+            <div class="col-md-4">
+                <br />
+                <div class="row">
+                    <img src="~/assets/images/qrcode-facebook.png" style="width:100px; height:100px" />
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <img src="~/assets/images/qrcode-youtube.png" style="width:100px; height:100px" />
+
+                    <br />
+
+                    &nbsp;Facebook&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Youtube
+                </div>
+            </div>
+        </address>
+        <table class="meta">
+            <tr>
+                <th><span contenteditable>Ad </span></th>
+                <td><span contenteditable>@Model.MyStudentAction.Student.Ad</span></td>
+            </tr>
+            <tr>
+                <th><span contenteditable>Soyad</span></th>
+                <td><span contenteditable>@Model.MyStudentAction.Student.Soyad</span></td>
+            </tr>
+            <tr>
+                <th><span contenteditable>Ata Adi</span></th>
+                <td><span contenteditable>@Model.MyStudentAction.Student.AtaAdi</span></td>
+            </tr>
+            <tr>
+                <th><span contenteditable>Şagird Kodu</span></th>
+                <td><span contenteditable>@Model.MyStudentAction.Student.SagirdKodu</span></td>
+            </tr>
+            <tr>
+                <th><span contenteditable>Vəsiqə №</span></th>
+                <td><span contenteditable>@Model.MyStudentAction.Student.SVNomresi</span></td>
+            </tr>
+        </table>
+        <table class="inventory">
+            <tr>
+                <th ><span contenteditable>İmtahanın Adı </span></th>
+                <td style="align-content:center center"><span contenteditable>@Model.MyStudentAction.Exam.Ad </span></td>
+                <th ><span contenteditable>İmtahan Sinifi</span></th>
+                <td style="align-content:center center"><span contenteditable>@Model.MyStudentAction.Exam.Grade.Sinif </span></td>
+            </tr>
+            <tr>
+                <th ><span contenteditable>Keçirilmə Tarixi</span></th>
+                <td style="align-content:center center"><span>@Model.MyStudentAction.Exam.Tarix.ToShortDateString() saat - @Model.MyStudentAction.Exam.Saat</span></td>
+                <th ><span contenteditable>İmtahan Müddəti</span></th>
+                <td style="align-content:center center"><span>@Model.MyStudentAction.Exam.Muddet_deqiqe dəq.</span></td>
+            </tr>
+            <tr>
+                <th colspan="2"><span contenteditable>İmtahana Giriş (İdentifikasiya) Kodu</span></th>
+                <td colspan="2" style="align-content:center center"><span contenteditable>@Model.MyStudentAction.GirisKodu</span></td>
+            </tr>
+        </table>
+    </article>
+    <aside>
+        <h1><span contenteditable>ƏLAVƏ QEYDLƏR</span></h1>
+        <div contenteditable style="font-family:'Palatino Linotype';  line-height: 1.2;">
+            @foreach (var item in Model.MyExamRule)
+            {
+                @Html.Raw(item.Qayda)
+                <br />
+            }
+        </div>
+    </aside>
+
+    <script type="text/javascript">
+        window.print();
+    </script>
+</body>
+</html>

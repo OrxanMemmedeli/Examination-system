@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineExamModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="OnlineExamEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Abouts" EntityType="OnlineExamModel.About" />
+    <EntitySet Name="Admins" EntityType="OnlineExamModel.Admin" />
+    <EntitySet Name="Blogs" EntityType="OnlineExamModel.Blog" />
+    <EntitySet Name="BookletOptions" EntityType="OnlineExamModel.BookletOption" />
+    <EntitySet Name="Cities" EntityType="OnlineExamModel.City" />
+    <EntitySet Name="CourseGroups" EntityType="OnlineExamModel.CourseGroup" />
+    <EntitySet Name="Exams" EntityType="OnlineExamModel.Exam" />
+    <EntitySet Name="ExamQuestions" EntityType="OnlineExamModel.ExamQuestion" />
+    <EntitySet Name="ExamOptions" EntityType="OnlineExamModel.ExamOption" />
+    <EntitySet Name="ExamParameters" EntityType="OnlineExamModel.ExamParameter" />
+    <EntitySet Name="ExamResults" EntityType="OnlineExamModel.ExamResult" />
+    <EntitySet Name="ExamRules" EntityType="OnlineExamModel.ExamRule" />
+    <EntitySet Name="ExamTypes" EntityType="OnlineExamModel.ExamType" />
+    <EntitySet Name="ExamTypeParameters" EntityType="OnlineExamModel.ExamTypeParameter" />
+    <EntitySet Name="ExamVideos" EntityType="OnlineExamModel.ExamVideo" />
+    <EntitySet Name="FreeTickets" EntityType="OnlineExamModel.FreeTicket" />
+    <EntitySet Name="Grades" EntityType="OnlineExamModel.Grade" />
+    <EntitySet Name="QuestionBanks" EntityType="OnlineExamModel.QuestionBank" />
+    <EntitySet Name="QuestionTypes" EntityType="OnlineExamModel.QuestionType" />
+    <EntitySet Name="PDFFiles" EntityType="OnlineExamModel.PDFFile" />
+    <EntitySet Name="Students" EntityType="OnlineExamModel.Student" />
+    <EntitySet Name="StudentActions" EntityType="OnlineExamModel.StudentAction" />
+    <EntitySet Name="StudentOptions" EntityType="OnlineExamModel.StudentOption" />
+    <EntitySet Name="Subjects" EntityType="OnlineExamModel.Subject" />
+    <EntitySet Name="SubjectSections" EntityType="OnlineExamModel.SubjectSection" />
+    <EntitySet Name="sysdiagrams" EntityType="OnlineExamModel.sysdiagram" />
+    <AssociationSet Name="FK_Exam_Admin1" Association="OnlineExamModel.FK_Exam_Admin1">
+      <End Role="Admin" EntitySet="Admins" />
+      <End Role="Exam" EntitySet="Exams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Admin" Association="OnlineExamModel.FK_Question_Admin">
+      <End Role="Admin" EntitySet="Admins" />
+      <End Role="QuestionBank" EntitySet="QuestionBanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamOptions_BookletOption" Association="OnlineExamModel.FK_ExamOptions_BookletOption">
+      <End Role="BookletOption" EntitySet="BookletOptions" />
+      <End Role="ExamOption" EntitySet="ExamOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Cities1" Association="OnlineExamModel.FK_Student_Cities1">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_CourseGroup" Association="OnlineExamModel.FK_Student_CourseGroup">
+      <End Role="CourseGroup" EntitySet="CourseGroups" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exam_ExamTypeParameter" Association="OnlineExamModel.FK_Exam_ExamTypeParameter">
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameters" />
+      <End Role="Exam" EntitySet="Exams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exam_Grade" Association="OnlineExamModel.FK_Exam_Grade">
+      <End Role="Grade" EntitySet="Grades" />
+      <End Role="Exam" EntitySet="Exams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_Exam1" Association="OnlineExamModel.FK_ExamQuestion_Exam1">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamOptions_Exam" Association="OnlineExamModel.FK_ExamOptions_Exam">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="ExamOption" EntitySet="ExamOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamResult_Exam" Association="OnlineExamModel.FK_ExamResult_Exam">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="ExamResult" EntitySet="ExamResults" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Exam" Association="OnlineExamModel.FK_Question_Exam">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="QuestionBank" EntitySet="QuestionBanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDFFile_Exam" Association="OnlineExamModel.FK_PDFFile_Exam">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="PDFFile" EntitySet="PDFFiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentAction_Exam1" Association="OnlineExamModel.FK_StudentAction_Exam1">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="StudentAction" EntitySet="StudentActions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentOptions_Exam" Association="OnlineExamModel.FK_StudentOptions_Exam">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="StudentOption" EntitySet="StudentOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_ExamTypeParameter1" Association="OnlineExamModel.FK_ExamQuestion_ExamTypeParameter1">
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameters" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_QuestionType" Association="OnlineExamModel.FK_ExamQuestion_QuestionType">
+      <End Role="QuestionType" EntitySet="QuestionTypes" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamQuestion_Subject2" Association="OnlineExamModel.FK_ExamQuestion_Subject2">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="ExamQuestion" EntitySet="ExamQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamParameter_ExamTypeParameter" Association="OnlineExamModel.FK_ExamParameter_ExamTypeParameter">
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameters" />
+      <End Role="ExamParameter" EntitySet="ExamParameters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamParameter_Subject" Association="OnlineExamModel.FK_ExamParameter_Subject">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="ExamParameter" EntitySet="ExamParameters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamResult_Student" Association="OnlineExamModel.FK_ExamResult_Student">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="ExamResult" EntitySet="ExamResults" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ExamTypeParameter_ExamType" Association="OnlineExamModel.FK_ExamTypeParameter_ExamType">
+      <End Role="ExamType" EntitySet="ExamTypes" />
+      <End Role="ExamTypeParameter" EntitySet="ExamTypeParameters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Grade" Association="OnlineExamModel.FK_Student_Grade">
+      <End Role="Grade" EntitySet="Grades" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_QuestionType" Association="OnlineExamModel.FK_Question_QuestionType">
+      <End Role="QuestionType" EntitySet="QuestionTypes" />
+      <End Role="QuestionBank" EntitySet="QuestionBanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Question_Subject" Association="OnlineExamModel.FK_Question_Subject">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="QuestionBank" EntitySet="QuestionBanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_QuestionBank_SubjectSection" Association="OnlineExamModel.FK_QuestionBank_SubjectSection">
+      <End Role="SubjectSection" EntitySet="SubjectSections" />
+      <End Role="QuestionBank" EntitySet="QuestionBanks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentAction_Student1" Association="OnlineExamModel.FK_StudentAction_Student1">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="StudentAction" EntitySet="StudentActions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentOptions_Student" Association="OnlineExamModel.FK_StudentOptions_Student">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="StudentOption" EntitySet="StudentOptions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectSection_Subject" Association="OnlineExamModel.FK_SubjectSection_Subject">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="SubjectSection" EntitySet="SubjectSections" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="About">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SehifeBasliq" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Haqqimizda" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Mobil" Type="String" Nullable="false" MaxLength="52" FixedLength="false" Unicode="true" />
+    <Property Name="WhatsApp" Type="String" MaxLength="52" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Youtube" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Facebook" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Unvan" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Parol" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QeydiyyatTarixi" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Exams" Relationship="OnlineExamModel.FK_Exam_Admin1" FromRole="Admin" ToRole="Exam" />
+    <NavigationProperty Name="QuestionBanks" Relationship="OnlineExamModel.FK_Question_Admin" FromRole="Admin" ToRole="QuestionBank" />
+  </EntityType>
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Basliq" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Melumat" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FotoURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tarix" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="BookletOption">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Variant" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="ExamOptions" Relationship="OnlineExamModel.FK_ExamOptions_BookletOption" FromRole="BookletOption" ToRole="ExamOption" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Seher" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Students" Relationship="OnlineExamModel.FK_Student_Cities1" FromRole="City" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="CourseGroup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qrup" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Students" Relationship="OnlineExamModel.FK_Student_CourseGroup" FromRole="CourseGroup" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Exam">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SinifID" Type="Int32" Nullable="false" />
+    <Property Name="Tarix" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Saat" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Muddet_deqiqe" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="Giris" Type="Boolean" Nullable="false" />
+    <Property Name="FotoURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PDFFileUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TipParametrID" Type="Int32" Nullable="false" />
+    <Property Name="AdminID" Type="Int32" Nullable="false" />
+    <Property Name="Imtahan" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Admin" Relationship="OnlineExamModel.FK_Exam_Admin1" FromRole="Exam" ToRole="Admin" />
+    <NavigationProperty Name="ExamTypeParameter" Relationship="OnlineExamModel.FK_Exam_ExamTypeParameter" FromRole="Exam" ToRole="ExamTypeParameter" />
+    <NavigationProperty Name="Grade" Relationship="OnlineExamModel.FK_Exam_Grade" FromRole="Exam" ToRole="Grade" />
+    <NavigationProperty Name="ExamQuestions" Relationship="OnlineExamModel.FK_ExamQuestion_Exam1" FromRole="Exam" ToRole="ExamQuestion" />
+    <NavigationProperty Name="ExamOptions" Relationship="OnlineExamModel.FK_ExamOptions_Exam" FromRole="Exam" ToRole="ExamOption" />
+    <NavigationProperty Name="ExamResults" Relationship="OnlineExamModel.FK_ExamResult_Exam" FromRole="Exam" ToRole="ExamResult" />
+    <NavigationProperty Name="QuestionBanks" Relationship="OnlineExamModel.FK_Question_Exam" FromRole="Exam" ToRole="QuestionBank" />
+    <NavigationProperty Name="PDFFiles" Relationship="OnlineExamModel.FK_PDFFile_Exam" FromRole="Exam" ToRole="PDFFile" />
+    <NavigationProperty Name="StudentActions" Relationship="OnlineExamModel.FK_StudentAction_Exam1" FromRole="Exam" ToRole="StudentAction" />
+    <NavigationProperty Name="StudentOptions" Relationship="OnlineExamModel.FK_StudentOptions_Exam" FromRole="Exam" ToRole="StudentOption" />
+  </EntityType>
+  <EntityType Name="ExamQuestion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImtahanId" Type="Int32" Nullable="false" />
+    <Property Name="FennId" Type="Int32" Nullable="false" />
+    <Property Name="TipId" Type="Int32" Nullable="false" />
+    <Property Name="SualSirasi" Type="Int32" Nullable="false" />
+    <Property Name="SualMetni" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cavablar" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SualTipi" Type="Int32" Nullable="false" />
+    <Property Name="YaranmaTarixi" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_ExamQuestion_Exam1" FromRole="ExamQuestion" ToRole="Exam" />
+    <NavigationProperty Name="ExamTypeParameter" Relationship="OnlineExamModel.FK_ExamQuestion_ExamTypeParameter1" FromRole="ExamQuestion" ToRole="ExamTypeParameter" />
+    <NavigationProperty Name="QuestionType" Relationship="OnlineExamModel.FK_ExamQuestion_QuestionType" FromRole="ExamQuestion" ToRole="QuestionType" />
+    <NavigationProperty Name="Subject" Relationship="OnlineExamModel.FK_ExamQuestion_Subject2" FromRole="ExamQuestion" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="ExamOption">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImtahanID" Type="Int32" Nullable="false" />
+    <Property Name="VariantID" Type="Int32" Nullable="false" />
+    <Property Name="Cavablar" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BookletOption" Relationship="OnlineExamModel.FK_ExamOptions_BookletOption" FromRole="ExamOption" ToRole="BookletOption" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_ExamOptions_Exam" FromRole="ExamOption" ToRole="Exam" />
+  </EntityType>
+  <EntityType Name="ExamParameter">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TipParametrID" Type="Int32" Nullable="false" />
+    <Property Name="Sira" Type="Int32" Nullable="false" />
+    <Property Name="FenninID" Type="Int32" Nullable="false" />
+    <Property Name="Bal" Type="Int32" Nullable="false" />
+    <Property Name="UmumiSualSayi" Type="Int32" Nullable="false" />
+    <Property Name="AciqSualSayi" Type="Int32" />
+    <Property Name="AciqSuallar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SehvBal" Type="Int32" />
+    <Property Name="AciqSehvBal" Type="Int32" />
+    <NavigationProperty Name="ExamTypeParameter" Relationship="OnlineExamModel.FK_ExamParameter_ExamTypeParameter" FromRole="ExamParameter" ToRole="ExamTypeParameter" />
+    <NavigationProperty Name="Subject" Relationship="OnlineExamModel.FK_ExamParameter_Subject" FromRole="ExamParameter" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="ExamResult">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImtahanID" Type="Int32" Nullable="false" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="DuzSayi" Type="Int32" />
+    <Property Name="SehvSayi" Type="Int32" />
+    <Property Name="Bal" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Yer" Type="Int32" />
+    <Property Name="Tarix" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_ExamResult_Exam" FromRole="ExamResult" ToRole="Exam" />
+    <NavigationProperty Name="Student" Relationship="OnlineExamModel.FK_ExamResult_Student" FromRole="ExamResult" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="ExamRule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Qayda" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sira" Type="Int32" Nullable="false" />
+    <Property Name="Cap" Type="Boolean" Nullable="false" />
+    <Property Name="Elan" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExamType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Adi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ExamTypeParameters" Relationship="OnlineExamModel.FK_ExamTypeParameter_ExamType" FromRole="ExamType" ToRole="ExamTypeParameter" />
+  </EntityType>
+  <EntityType Name="ExamTypeParameter">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FennSayi" Type="Int32" Nullable="false" />
+    <Property Name="TipID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Exams" Relationship="OnlineExamModel.FK_Exam_ExamTypeParameter" FromRole="ExamTypeParameter" ToRole="Exam" />
+    <NavigationProperty Name="ExamQuestions" Relationship="OnlineExamModel.FK_ExamQuestion_ExamTypeParameter1" FromRole="ExamTypeParameter" ToRole="ExamQuestion" />
+    <NavigationProperty Name="ExamParameters" Relationship="OnlineExamModel.FK_ExamParameter_ExamTypeParameter" FromRole="ExamTypeParameter" ToRole="ExamParameter" />
+    <NavigationProperty Name="ExamType" Relationship="OnlineExamModel.FK_ExamTypeParameter_ExamType" FromRole="ExamTypeParameter" ToRole="ExamType" />
+  </EntityType>
+  <EntityType Name="ExamVideo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Basliq" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Melumat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="VideoURL" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="FreeTicket">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SagirdKodu" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sinif" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Exams" Relationship="OnlineExamModel.FK_Exam_Grade" FromRole="Grade" ToRole="Exam" />
+    <NavigationProperty Name="Students" Relationship="OnlineExamModel.FK_Student_Grade" FromRole="Grade" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="QuestionBank">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sual" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cavab" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Cetinlik" Type="Int32" />
+    <Property Name="Movzu" Type="Int32" />
+    <Property Name="FennID" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <Property Name="YaranmaTarixi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TipID" Type="Int32" Nullable="false" />
+    <Property Name="ImtahanID" Type="Int32" Nullable="false" />
+    <Property Name="AdminID" Type="Int32" />
+    <NavigationProperty Name="Admin" Relationship="OnlineExamModel.FK_Question_Admin" FromRole="QuestionBank" ToRole="Admin" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_Question_Exam" FromRole="QuestionBank" ToRole="Exam" />
+    <NavigationProperty Name="QuestionType" Relationship="OnlineExamModel.FK_Question_QuestionType" FromRole="QuestionBank" ToRole="QuestionType" />
+    <NavigationProperty Name="Subject" Relationship="OnlineExamModel.FK_Question_Subject" FromRole="QuestionBank" ToRole="Subject" />
+    <NavigationProperty Name="SubjectSection" Relationship="OnlineExamModel.FK_QuestionBank_SubjectSection" FromRole="QuestionBank" ToRole="SubjectSection" />
+  </EntityType>
+  <EntityType Name="QuestionType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tip" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ExamQuestions" Relationship="OnlineExamModel.FK_ExamQuestion_QuestionType" FromRole="QuestionType" ToRole="ExamQuestion" />
+    <NavigationProperty Name="QuestionBanks" Relationship="OnlineExamModel.FK_Question_QuestionType" FromRole="QuestionType" ToRole="QuestionBank" />
+  </EntityType>
+  <EntityType Name="PDFFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FileUrl" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ImtahanID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_PDFFile_Exam" FromRole="PDFFile" ToRole="Exam" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="AtaAdi" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SVNomresi" Type="String" MaxLength="12" FixedLength="true" Unicode="true" />
+    <Property Name="SagirdKodu" Type="Int32" />
+    <Property Name="SinifID" Type="Int32" Nullable="false" />
+    <Property Name="Cins" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="DogumTarixi" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="WhatsApp" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="MobilNomre" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="QrupID" Type="Int32" />
+    <Property Name="Parol" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QeydiyyatTarixi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SeherID" Type="Int32" Nullable="false" />
+    <Property Name="FotoURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="City" Relationship="OnlineExamModel.FK_Student_Cities1" FromRole="Student" ToRole="City" />
+    <NavigationProperty Name="CourseGroup" Relationship="OnlineExamModel.FK_Student_CourseGroup" FromRole="Student" ToRole="CourseGroup" />
+    <NavigationProperty Name="ExamResults" Relationship="OnlineExamModel.FK_ExamResult_Student" FromRole="Student" ToRole="ExamResult" />
+    <NavigationProperty Name="Grade" Relationship="OnlineExamModel.FK_Student_Grade" FromRole="Student" ToRole="Grade" />
+    <NavigationProperty Name="StudentActions" Relationship="OnlineExamModel.FK_StudentAction_Student1" FromRole="Student" ToRole="StudentAction" />
+    <NavigationProperty Name="StudentOptions" Relationship="OnlineExamModel.FK_StudentOptions_Student" FromRole="Student" ToRole="StudentOption" />
+  </EntityType>
+  <EntityType Name="StudentAction">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="ImtahanID" Type="Int32" Nullable="false" />
+    <Property Name="GirisKodu" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Tarix" Type="DateTime" Precision="3" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_StudentAction_Exam1" FromRole="StudentAction" ToRole="Exam" />
+    <NavigationProperty Name="Student" Relationship="OnlineExamModel.FK_StudentAction_Student1" FromRole="StudentAction" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="StudentOption">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SagirdID" Type="Int32" Nullable="false" />
+    <Property Name="ImtahanId" Type="Int32" Nullable="false" />
+    <Property Name="Bitirmek" Type="Boolean" Nullable="false" />
+    <Property Name="Cavablar" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FennlerUzreNetice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Bal" Type="Double" />
+    <Property Name="Tarix" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Exam" Relationship="OnlineExamModel.FK_StudentOptions_Exam" FromRole="StudentOption" ToRole="Exam" />
+    <NavigationProperty Name="Student" Relationship="OnlineExamModel.FK_StudentOptions_Student" FromRole="StudentOption" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fenn" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ExamQuestions" Relationship="OnlineExamModel.FK_ExamQuestion_Subject2" FromRole="Subject" ToRole="ExamQuestion" />
+    <NavigationProperty Name="ExamParameters" Relationship="OnlineExamModel.FK_ExamParameter_Subject" FromRole="Subject" ToRole="ExamParameter" />
+    <NavigationProperty Name="QuestionBanks" Relationship="OnlineExamModel.FK_Question_Subject" FromRole="Subject" ToRole="QuestionBank" />
+    <NavigationProperty Name="SubjectSections" Relationship="OnlineExamModel.FK_SubjectSection_Subject" FromRole="Subject" ToRole="SubjectSection" />
+  </EntityType>
+  <EntityType Name="SubjectSection">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Movzu" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FennID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="QuestionBanks" Relationship="OnlineExamModel.FK_QuestionBank_SubjectSection" FromRole="SubjectSection" ToRole="QuestionBank" />
+    <NavigationProperty Name="Subject" Relationship="OnlineExamModel.FK_SubjectSection_Subject" FromRole="SubjectSection" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Exam_Admin1">
+    <End Type="OnlineExamModel.Admin" Role="Admin" Multiplicity="1" />
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Admin">
+    <End Type="OnlineExamModel.Admin" Role="Admin" Multiplicity="0..1" />
+    <End Type="OnlineExamModel.QuestionBank" Role="QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Admin">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="AdminID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamOptions_BookletOption">
+    <End Type="OnlineExamModel.BookletOption" Role="BookletOption" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamOption" Role="ExamOption" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BookletOption">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamOption">
+        <PropertyRef Name="VariantID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Cities1">
+    <End Type="OnlineExamModel.City" Role="City" Multiplicity="1" />
+    <End Type="OnlineExamModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SeherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_CourseGroup">
+    <End Type="OnlineExamModel.CourseGroup" Role="CourseGroup" Multiplicity="0..1" />
+    <End Type="OnlineExamModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CourseGroup">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="QrupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exam_ExamTypeParameter">
+    <End Type="OnlineExamModel.ExamTypeParameter" Role="ExamTypeParameter" Multiplicity="1" />
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamTypeParameter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="TipParametrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exam_Grade">
+    <End Type="OnlineExamModel.Grade" Role="Grade" Multiplicity="1" />
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="SinifID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_Exam1">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamQuestion" Role="ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="ImtahanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamOptions_Exam">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamOption" Role="ExamOption" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamOption">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamResult_Exam">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamResult" Role="ExamResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamResult">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Exam">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.QuestionBank" Role="QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDFFile_Exam">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.PDFFile" Role="PDFFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PDFFile">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentAction_Exam1">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.StudentAction" Role="StudentAction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentAction">
+        <PropertyRef Name="ImtahanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentOptions_Exam">
+    <End Type="OnlineExamModel.Exam" Role="Exam" Multiplicity="1" />
+    <End Type="OnlineExamModel.StudentOption" Role="StudentOption" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentOption">
+        <PropertyRef Name="ImtahanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_ExamTypeParameter1">
+    <End Type="OnlineExamModel.ExamTypeParameter" Role="ExamTypeParameter" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamQuestion" Role="ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamTypeParameter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="TipId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_QuestionType">
+    <End Type="OnlineExamModel.QuestionType" Role="QuestionType" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamQuestion" Role="ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="SualTipi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamQuestion_Subject2">
+    <End Type="OnlineExamModel.Subject" Role="Subject" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamQuestion" Role="ExamQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamQuestion">
+        <PropertyRef Name="FennId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamParameter_ExamTypeParameter">
+    <End Type="OnlineExamModel.ExamTypeParameter" Role="ExamTypeParameter" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamParameter" Role="ExamParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamTypeParameter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamParameter">
+        <PropertyRef Name="TipParametrID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamParameter_Subject">
+    <End Type="OnlineExamModel.Subject" Role="Subject" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamParameter" Role="ExamParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamParameter">
+        <PropertyRef Name="FenninID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamResult_Student">
+    <End Type="OnlineExamModel.Student" Role="Student" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamResult" Role="ExamResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamResult">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ExamTypeParameter_ExamType">
+    <End Type="OnlineExamModel.ExamType" Role="ExamType" Multiplicity="1" />
+    <End Type="OnlineExamModel.ExamTypeParameter" Role="ExamTypeParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExamTypeParameter">
+        <PropertyRef Name="TipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Grade">
+    <End Type="OnlineExamModel.Grade" Role="Grade" Multiplicity="1" />
+    <End Type="OnlineExamModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grade">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SinifID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_QuestionType">
+    <End Type="OnlineExamModel.QuestionType" Role="QuestionType" Multiplicity="1" />
+    <End Type="OnlineExamModel.QuestionBank" Role="QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionType">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="TipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Question_Subject">
+    <End Type="OnlineExamModel.Subject" Role="Subject" Multiplicity="1" />
+    <End Type="OnlineExamModel.QuestionBank" Role="QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="FennID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_QuestionBank_SubjectSection">
+    <End Type="OnlineExamModel.SubjectSection" Role="SubjectSection" Multiplicity="0..1" />
+    <End Type="OnlineExamModel.QuestionBank" Role="QuestionBank" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectSection">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="QuestionBank">
+        <PropertyRef Name="Movzu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentAction_Student1">
+    <End Type="OnlineExamModel.Student" Role="Student" Multiplicity="1" />
+    <End Type="OnlineExamModel.StudentAction" Role="StudentAction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentAction">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentOptions_Student">
+    <End Type="OnlineExamModel.Student" Role="Student" Multiplicity="1" />
+    <End Type="OnlineExamModel.StudentOption" Role="StudentOption" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="StudentOption">
+        <PropertyRef Name="SagirdID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectSection_Subject">
+    <End Type="OnlineExamModel.Subject" Role="Subject" Multiplicity="1" />
+    <End Type="OnlineExamModel.SubjectSection" Role="SubjectSection" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SubjectSection">
+        <PropertyRef Name="FennID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

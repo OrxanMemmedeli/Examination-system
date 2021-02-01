@@ -1,0 +1,1533 @@
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csc.exe
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csc.exe.config
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csc.rsp
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csi.exe
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csi.exe.config
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csi.rsp
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Console.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\vbc.exe
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\vbc.exe.config
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\vbc.rsp
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Antlr3.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Newtonsoft.Json.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Helpers.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Optimization.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\WebGrease.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Helpers.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Optimization.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Newtonsoft.Json.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.xml
+C:\Users\memme\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\ExamAndQuiz.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\ExamAndQuiz.pdb
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csc.exe
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csc.exe.config
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csc.rsp
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csi.exe
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csi.exe.config
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\csi.rsp
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Console.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\vbc.exe
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\vbc.exe.config
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\vbc.rsp
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Antlr3.Runtime.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Newtonsoft.Json.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Helpers.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Mvc.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Optimization.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Razor.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\WebGrease.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Helpers.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Mvc.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Optimization.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.Razor.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Newtonsoft.Json.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+C:\Users\ilqar imamaliyev\source\repos\ExamAndQuiz\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csi.exe
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csi.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csi.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Console.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\vbc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\vbc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\vbc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Antlr3.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Newtonsoft.Json.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Helpers.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Optimization.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\WebGrease.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Helpers.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Optimization.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Newtonsoft.Json.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\ExamAndQuiz.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\ExamAndQuiz.pdb
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csc.exe
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csc.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csc.rsp
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csi.exe
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csi.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\csi.rsp
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Console.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\vbc.exe
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\vbc.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\vbc.rsp
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Antlr3.Runtime.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Newtonsoft.Json.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Helpers.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Mvc.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Optimization.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Razor.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\WebGrease.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Helpers.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Mvc.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Optimization.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.Razor.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Newtonsoft.Json.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+H:\000 Orxan\exam\ExamAndQuizWork\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csi.exe
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csi.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csi.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Console.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\vbc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\vbc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\vbc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Antlr3.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Newtonsoft.Json.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Helpers.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Optimization.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\WebGrease.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Helpers.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Optimization.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Newtonsoft.Json.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\ExamAndQuiz.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\ExamAndQuiz.pdb
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csc.exe
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csc.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csc.rsp
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csi.exe
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csi.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\csi.rsp
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Console.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\vbc.exe
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\vbc.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\vbc.rsp
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Antlr3.Runtime.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Newtonsoft.Json.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Helpers.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Mvc.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Optimization.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Razor.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\WebGrease.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Helpers.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Mvc.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Optimization.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.Razor.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Newtonsoft.Json.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+H:\000 Orxan\exam\ExamAndQuizWork1\ExamAndQuizWork1\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\csc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\csc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\csc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\csi.exe
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\csi.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\csi.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Console.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\vbc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\vbc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\vbc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Antlr3.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\EntityFramework.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Newtonsoft.Json.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Helpers.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Optimization.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.WebPages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\WebGrease.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\EntityFramework.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Helpers.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Optimization.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.WebPages.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Newtonsoft.Json.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork2\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\csc.exe
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\csc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\csc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\csi.exe
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\csi.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\csi.rsp
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\vbc.exe
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\vbc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\vbc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Antlr3.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\EntityFramework.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Newtonsoft.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Helpers.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Optimization.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.WebPages.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\WebGrease.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\EntityFramework.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Helpers.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Optimization.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.WebPages.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Newtonsoft.Json.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\PagedList.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\PagedList.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\PagedList.xml
+H:\000 Orxan\repos\ExamAndQuizWork3\ExamAndQuiz\bin\PagedList.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\ExamAndQuiz.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\csc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\csc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\csc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\csi.exe
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\csi.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\csi.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Console.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\vbc.exe
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\vbc.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\vbc.rsp
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Antlr3.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\EntityFramework.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Newtonsoft.Json.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\PagedList.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\PagedList.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Helpers.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Optimization.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.WebPages.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\WebGrease.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\EntityFramework.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\PagedList.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\PagedList.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Helpers.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Optimization.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.WebPages.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Newtonsoft.Json.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+C:\Users\memme\source\repos\ExamAndQuizWork5\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\csc.exe
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\csc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\csc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\csi.exe
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\csi.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\csi.rsp
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\vbc.exe
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\vbc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\vbc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Antlr3.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\EntityFramework.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Newtonsoft.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\PagedList.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\PagedList.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Helpers.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Optimization.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.WebPages.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\WebGrease.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\EntityFramework.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\PagedList.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\PagedList.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Helpers.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Optimization.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.WebPages.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Newtonsoft.Json.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Win32.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\netstandard.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Collections.Concurrent.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Collections.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Collections.NonGeneric.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Collections.Specialized.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ComponentModel.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ComponentModel.EventBasedAsync.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ComponentModel.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ComponentModel.TypeConverter.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Data.Common.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.Contracts.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.Debug.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.Process.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.TextWriterTraceListener.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.Tools.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.TraceSource.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.Tracing.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Drawing.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Dynamic.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Globalization.Calendars.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Globalization.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Globalization.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.Compression.ZipFile.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.FileSystem.DriveInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.FileSystem.Watcher.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.IsolatedStorage.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.MemoryMappedFiles.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.IO.UnmanagedMemoryStream.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Linq.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Linq.Expressions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Linq.Parallel.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Linq.Queryable.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.Http.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.NameResolution.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.NetworkInformation.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.Ping.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.Requests.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.Security.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.Sockets.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.WebHeaderCollection.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.WebSockets.Client.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Net.WebSockets.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ObjectModel.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Reflection.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Reflection.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Reflection.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Resources.Reader.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Resources.ResourceManager.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Resources.Writer.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.CompilerServices.VisualC.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Handles.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.InteropServices.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Numerics.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Serialization.Formatters.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Serialization.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Serialization.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.Serialization.Xml.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Cryptography.Csp.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.Principal.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Security.SecureString.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Text.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Text.Encoding.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Text.RegularExpressions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Overlapped.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Tasks.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Tasks.Parallel.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Thread.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.ThreadPool.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Timer.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Xml.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Xml.XmlSerializer.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Logging.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Options.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Buffers.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.ComponentModel.Annotations.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Memory.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Numerics.Vectors.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Logging.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Options.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Buffers.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Collections.Immutable.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Memory.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Numerics.Vectors.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.xml
+H:\000 Orxan\repos\ExamAndQuizWork5-0\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Win32.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\netstandard.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.AppContext.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Collections.Concurrent.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Collections.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Collections.NonGeneric.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Collections.Specialized.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ComponentModel.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ComponentModel.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Console.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Data.Common.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.Contracts.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.Debug.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.Process.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.StackTrace.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.Tools.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.TraceSource.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.Tracing.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Drawing.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Dynamic.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Globalization.Calendars.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Globalization.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Globalization.Extensions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.Compression.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.Compression.ZipFile.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.FileSystem.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.IsolatedStorage.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.Pipes.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Linq.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Linq.Expressions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Linq.Parallel.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Linq.Queryable.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.Http.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.NameResolution.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.NetworkInformation.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.Ping.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.Requests.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.Security.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.Sockets.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.WebHeaderCollection.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.WebSockets.Client.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Net.WebSockets.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ObjectModel.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Reflection.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Reflection.Extensions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Reflection.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Resources.Reader.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Resources.ResourceManager.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Resources.Writer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Extensions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Handles.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.InteropServices.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Numerics.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Serialization.Json.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Claims.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Cryptography.Csp.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.Principal.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Security.SecureString.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Text.Encoding.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Text.Encoding.Extensions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Text.RegularExpressions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Overlapped.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Tasks.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Thread.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.ThreadPool.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Timer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ValueTuple.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Xml.ReaderWriter.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Xml.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Xml.XmlDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Xml.XmlSerializer.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Xml.XPath.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Xml.XPath.XDocument.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Logging.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Options.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\PagedList.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\PagedList.Mvc.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Buffers.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Collections.Immutable.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.ComponentModel.Annotations.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Memory.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Numerics.Vectors.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Logging.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Options.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\PagedList.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\PagedList.Mvc.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Buffers.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Collections.Immutable.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Memory.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Numerics.Vectors.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\memme\source\repos\ExamAndQuizWork\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\csc.exe
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\csc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\csc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\csi.exe
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\csi.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\csi.rsp
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\vbc.exe
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\vbc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\vbc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Win32.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\netstandard.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Collections.Concurrent.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Collections.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Collections.NonGeneric.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Collections.Specialized.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ComponentModel.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ComponentModel.EventBasedAsync.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ComponentModel.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ComponentModel.TypeConverter.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Data.Common.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.Contracts.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.Debug.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.Process.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.TextWriterTraceListener.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.Tools.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.TraceSource.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.Tracing.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Drawing.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Dynamic.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Globalization.Calendars.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Globalization.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Globalization.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.Compression.ZipFile.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.FileSystem.DriveInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.FileSystem.Watcher.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.IsolatedStorage.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.MemoryMappedFiles.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.IO.UnmanagedMemoryStream.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Linq.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Linq.Expressions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Linq.Parallel.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Linq.Queryable.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.Http.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.NameResolution.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.NetworkInformation.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.Ping.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.Requests.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.Security.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.Sockets.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.WebHeaderCollection.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.WebSockets.Client.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Net.WebSockets.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ObjectModel.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Reflection.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Reflection.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Reflection.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Resources.Reader.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Resources.ResourceManager.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Resources.Writer.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.CompilerServices.VisualC.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Handles.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.InteropServices.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Numerics.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Serialization.Formatters.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Serialization.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Serialization.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.Serialization.Xml.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Cryptography.Csp.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.Principal.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Security.SecureString.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Text.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Text.Encoding.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Text.RegularExpressions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Overlapped.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Tasks.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Tasks.Parallel.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Thread.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.ThreadPool.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Timer.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Xml.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Xml.XmlSerializer.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Antlr3.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\EntityFramework.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Logging.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Options.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Newtonsoft.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\PagedList.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\PagedList.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Buffers.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.ComponentModel.Annotations.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Memory.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Numerics.Vectors.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Helpers.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Optimization.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.WebPages.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\WebGrease.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\EntityFramework.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Logging.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Options.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\PagedList.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\PagedList.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Buffers.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Collections.Immutable.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Memory.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Numerics.Vectors.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Helpers.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Optimization.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.WebPages.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Newtonsoft.Json.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork6\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\ExamAndQuiz.dll.config
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\csc.exe
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\csc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\csc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\csi.exe
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\csi.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\csi.rsp
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.Managed.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.IO.Pipes.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Reflection.Metadata.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.AccessControl.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Security.Principal.Windows.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\vbc.exe
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\vbc.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\vbc.rsp
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\roslyn\VBCSCompiler.exe.config
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Win32.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\netstandard.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.AppContext.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Collections.Concurrent.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Collections.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Collections.NonGeneric.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Collections.Specialized.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ComponentModel.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ComponentModel.EventBasedAsync.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ComponentModel.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ComponentModel.TypeConverter.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Console.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Data.Common.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.Contracts.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.Debug.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.FileVersionInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.Process.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.StackTrace.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.TextWriterTraceListener.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.Tools.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.TraceSource.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.Tracing.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Drawing.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Dynamic.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Globalization.Calendars.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Globalization.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Globalization.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.Compression.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.Compression.ZipFile.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.FileSystem.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.FileSystem.DriveInfo.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.FileSystem.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.FileSystem.Watcher.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.IsolatedStorage.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.MemoryMappedFiles.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.Pipes.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.IO.UnmanagedMemoryStream.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Linq.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Linq.Expressions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Linq.Parallel.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Linq.Queryable.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.Http.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.NameResolution.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.NetworkInformation.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.Ping.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.Requests.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.Security.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.Sockets.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.WebHeaderCollection.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.WebSockets.Client.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Net.WebSockets.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ObjectModel.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Reflection.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Reflection.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Reflection.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Resources.Reader.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Resources.ResourceManager.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Resources.Writer.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.CompilerServices.VisualC.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Handles.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.InteropServices.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Numerics.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Serialization.Formatters.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Serialization.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Serialization.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.Serialization.Xml.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Claims.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Cryptography.Algorithms.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Cryptography.Csp.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Cryptography.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Cryptography.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Cryptography.X509Certificates.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.Principal.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Security.SecureString.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Text.Encoding.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Text.Encoding.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Text.RegularExpressions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Overlapped.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Tasks.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Tasks.Parallel.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Thread.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.ThreadPool.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Timer.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ValueTuple.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Xml.ReaderWriter.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Xml.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Xml.XmlDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Xml.XmlSerializer.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Xml.XPath.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Xml.XPath.XDocument.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Antlr3.Runtime.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\EntityFramework.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\EntityFramework.SqlServer.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Logging.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Options.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Web.Infrastructure.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Newtonsoft.Json.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\PagedList.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\PagedList.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Buffers.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Collections.Immutable.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.ComponentModel.Annotations.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Memory.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Numerics.Vectors.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Helpers.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Mvc.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Optimization.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.WebPages.Deployment.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.WebPages.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.WebPages.Razor.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\WebGrease.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\EntityFramework.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\EntityFramework.SqlServer.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Bcl.AsyncInterfaces.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Bcl.HashCode.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Caching.Memory.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Configuration.Binder.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Logging.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Logging.Abstractions.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Options.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.Extensions.Primitives.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\PagedList.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\PagedList.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Buffers.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Collections.Immutable.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Diagnostics.DiagnosticSource.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Memory.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Numerics.Vectors.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Runtime.CompilerServices.Unsafe.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Threading.Tasks.Extensions.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Helpers.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Mvc.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Optimization.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.WebPages.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.WebPages.Deployment.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\System.Web.WebPages.Razor.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Newtonsoft.Json.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Antlr3.Runtime.pdb
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\obj\Debug\ExamAndQuiz.csproj.CopyComplete
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\obj\Debug\ExamAndQuiz.dll
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\obj\Debug\ExamAndQuiz.pdb
+H:\000 Orxan\repos\ExamAndQuizWork8\ExamAndQuiz\obj\Debug\ExamAndQuiz.csprojAssemblyReference.cache

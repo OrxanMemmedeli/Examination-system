@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3dddb9804ac749c7900f21e02e04a011" Name="Diagram1" ZoomLevel="105">
+        <EntityTypeShape EntityType="OnlineExamModel.About" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.Admin" Width="1.5" PointX="0.75" PointY="19" />
+        <EntityTypeShape EntityType="OnlineExamModel.Blog" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.BookletOption" Width="1.5" PointX="9.625" PointY="19.25" />
+        <EntityTypeShape EntityType="OnlineExamModel.City" Width="1.5" PointX="6" PointY="20.5" />
+        <EntityTypeShape EntityType="OnlineExamModel.CourseGroup" Width="1.5" PointX="2.5" PointY="20.625" />
+        <EntityTypeShape EntityType="OnlineExamModel.Exam" Width="1.5" PointX="3" PointY="14.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamQuestion" Width="1.5" PointX="8.25" PointY="11.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamOption" Width="1.5" PointX="8.25" PointY="16.375" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamParameter" Width="1.5" PointX="8.25" PointY="7.25" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamResult" Width="1.5" PointX="11.25" PointY="16" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamRule" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamType" Width="1.5" PointX="1.5" PointY="10" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamTypeParameter" Width="1.5" PointX="0.75" PointY="12.625" />
+        <EntityTypeShape EntityType="OnlineExamModel.ExamVideo" Width="1.5" PointX="5.75" PointY="4.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.FreeTicket" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.Grade" Width="1.5" PointX="0.75" PointY="16.625" />
+        <EntityTypeShape EntityType="OnlineExamModel.QuestionBank" Width="1.5" PointX="5.25" PointY="9.5" />
+        <EntityTypeShape EntityType="OnlineExamModel.QuestionType" Width="1.5" PointX="4.125" PointY="20.5" />
+        <EntityTypeShape EntityType="OnlineExamModel.PDFFile" Width="1.5" PointX="11.25" PointY="19.375" />
+        <EntityTypeShape EntityType="OnlineExamModel.Student" Width="1.5" PointX="6" PointY="14.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.StudentAction" Width="1.5" PointX="11.25" PointY="12.25" />
+        <EntityTypeShape EntityType="OnlineExamModel.StudentOption" Width="1.5" PointX="7.75" PointY="19.25" />
+        <EntityTypeShape EntityType="OnlineExamModel.Subject" Width="1.5" PointX="3" PointY="6.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.SubjectSection" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="OnlineExamModel.sysdiagram" Width="1.5" PointX="7.75" PointY="3.75" />
+        <AssociationConnector Association="OnlineExamModel.FK_Exam_Admin1" />
+        <AssociationConnector Association="OnlineExamModel.FK_Question_Admin" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamOptions_BookletOption" />
+        <AssociationConnector Association="OnlineExamModel.FK_Student_Cities1" />
+        <AssociationConnector Association="OnlineExamModel.FK_Student_CourseGroup" />
+        <AssociationConnector Association="OnlineExamModel.FK_Exam_ExamTypeParameter" />
+        <AssociationConnector Association="OnlineExamModel.FK_Exam_Grade" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamQuestion_Exam1" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamOptions_Exam" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamResult_Exam" />
+        <AssociationConnector Association="OnlineExamModel.FK_Question_Exam" />
+        <AssociationConnector Association="OnlineExamModel.FK_PDFFile_Exam" />
+        <AssociationConnector Association="OnlineExamModel.FK_StudentAction_Exam1" />
+        <AssociationConnector Association="OnlineExamModel.FK_StudentOptions_Exam" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamQuestion_ExamTypeParameter1" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamQuestion_QuestionType" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamQuestion_Subject2" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamParameter_ExamTypeParameter" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamParameter_Subject" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamResult_Student" />
+        <AssociationConnector Association="OnlineExamModel.FK_ExamTypeParameter_ExamType" />
+        <AssociationConnector Association="OnlineExamModel.FK_Student_Grade" />
+        <AssociationConnector Association="OnlineExamModel.FK_Question_QuestionType" />
+        <AssociationConnector Association="OnlineExamModel.FK_Question_Subject" />
+        <AssociationConnector Association="OnlineExamModel.FK_QuestionBank_SubjectSection" />
+        <AssociationConnector Association="OnlineExamModel.FK_StudentAction_Student1" />
+        <AssociationConnector Association="OnlineExamModel.FK_StudentOptions_Student" />
+        <AssociationConnector Association="OnlineExamModel.FK_SubjectSection_Subject" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

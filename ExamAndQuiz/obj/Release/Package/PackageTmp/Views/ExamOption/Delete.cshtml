@@ -1,0 +1,50 @@
+﻿@model ExamAndQuiz.Models.ExamOption
+
+@{
+    ViewBag.Title = "Sil";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Sil</h2>
+
+<h3>Diqqət!!! İmtahan məlumatlarını silmək üçün ilk əvvəl imtahan daxili sualların silinməsi lazımdır.</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cavablar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cavablar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BookletOption.Variant)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BookletOption.Variant)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Exam.Ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Exam.Ad)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-outline-info" />
+            <a href="/ExamOption/Index" class="btn btn-outline-dark">Geri</a>
+        </div>
+    }
+</div>

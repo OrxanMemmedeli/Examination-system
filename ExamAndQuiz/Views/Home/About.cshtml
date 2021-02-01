@@ -1,0 +1,92 @@
+﻿@model ExamAndQuiz.Models.About
+@{
+    ViewBag.Title = "Haqqımızda";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+}
+
+
+<section class="header2 cid-r2LhXENyx9" id="header2-19">
+
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="mbr-row mbr-black mbr-row-reverse">
+            <div class="title-wrap mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-6 align-left mbr-flex">
+                <div class="title-block mbr-col-sm-12 mbr-col-md-12">
+                    <h1 class="mbr-section-title mbr-fonts-style mbr-bold display-1">@Model.SehifeBasliq</h1>
+
+                    <p class="mbr-text mbr-fonts-style mbr-pt-2 display-7">
+                        @Model.Haqqimizda
+                    </p>
+                </div>
+            </div>
+            <div class="image-wrap mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-6 mbr-flex">
+                <div class="image-block mbr-col-md-12 mbr-col-sm-12 mbr-mr-auto">
+                    <img decoding="async" alt="" src="~/UploadFoto/loqo123.png" >
+
+               
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contacts3 map cid-sdGNDauG1m" id="contacts3-21">
+
+
+    <div class="container">
+        <div class="title mbr-pb-4 align-center">
+            <h3 class="mbr-section-title mbr-bold mbr-fonts-style display-2">Əlaqə Vasitələri</h3>
+        </div>
+        <div class="mbr-row main-row mbr-jc-c">
+            <div class="first-element mbr-col-md-12 mbr-col-sm-12 mbr-flex mbr-col-lg-6">
+                <div class="contacts-block mbr-flex mbr-jc-c mbr-column align-center">
+
+                    <div class="contacts-box mbr-pt-3">
+                        <p class="mbr-text contacts-text mbr-fonts-style display-5"><strong>Ünvan:</strong> <span>@Model.Unvan</span></p>
+                        @foreach (var item in Model.Mobil.Split('|'))
+                        {
+                            <p class="mbr-text contacts-text mbr-fonts-style mbr-pt-2 display-5">
+                                <strong>Mobil:</strong>
+                                <span>
+
+                                    @item
+
+                                </span>
+                            </p>
+                        }
+                        @foreach (var item in Model.WhatsApp.Split('|'))
+                        {
+                            <p class="mbr-text contacts-text mbr-fonts-style mbr-pt-2 display-5">
+                                <strong>WhatsApp:</strong>
+                                <span>
+
+                                    @item
+
+                                </span>
+                            </p>
+                        }
+
+                        @if (Model.Email != null)
+                        {
+                            <p class="mbr-text contacts-text mbr-fonts-style mbr-pt-2 mbr-pb-2 display-5"><strong>E-mail:</strong> <span>@Model.Email</span></p>
+                        }
+                            <div class="icons-list social mbr-pt-4">
+                                <a href="https://www.facebook.com/tdvhilalkurs" target="_blank" class="iconfont-wrapper">
+                                    <span class="amp-iconfont animation-normal fa-facebook-square fa"><svg width="100%" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"></path></svg></span>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCBIfCxVBPhW7qnqH_WXPbPg" target="_blank" class="iconfont-wrapper">
+                                    <span class="amp-iconfont animation-normal fa-youtube-play fa"><svg width="100%" style="color:red" height="100%" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"></path></svg></span>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="map-block mbr-col-md-12 mbr-col-sm-12 mbr-jc-c mbr-flex mbr-m-auto mbr-column mbr-col-lg-6">
+                <div class="google-map">
+                    <img src="~/UploadFoto/about-2.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

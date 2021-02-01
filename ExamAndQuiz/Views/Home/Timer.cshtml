@@ -1,0 +1,61 @@
+﻿@model ExamAndQuiz.Models.Exam
+
+<h1 id="demo" class="m-0 sayac">
+    <span>
+    </span>
+</h1>
+
+<script>
+
+    var distance = @Model.Muddet_deqiqe * 60;
+
+    var x = setInterval(function () {
+
+        distance = distance - 1;
+
+
+        var hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
+        var minutes = Math.floor((distance % (60 * 60)) / (60));
+        var seconds = Math.floor(distance % (60));
+
+        document.getElementById("demo").innerHTML = hours + " : "
+            + minutes + " : " + seconds;
+
+        if (distance == 60 * 60) {
+            Command: toastr["warning"]("İmtahanın Son 60 dəqiqəsi qaldı", "Diqqət!!!");
+            Command: toastr["warning"]("İmtahanın Son 60 dəqiqəsi qaldı", "Diqqət!!!");
+            Command: toastr["warning"]("İmtahanın Son 60 dəqiqəsi qaldı", "Diqqət!!!");
+        }
+        else if (distance == 5 * 60) {
+            Command: toastr["warning"]("İmtahanın Son 5 dəqiqəsi qaldı", "Diqqət!!!");
+            Command: toastr["warning"]("İmtahanın Son 5 dəqiqəsi qaldı", "Diqqət!!!");
+            Command: toastr["warning"]("İmtahanın Son 5 dəqiqəsi qaldı", "Diqqət!!!");
+        }
+        else if (distance == 0.2 * 60) {
+            Command: toastr["warning"]("İmtahanın Son 10 saniyə qaldı", "Diqqət!!!");
+            Command: toastr["warning"]("İmtahanın Son 10 saniyə qaldı", "Diqqət!!!");
+            Command: toastr["warning"]("İmtahanın Son 10 saniyə qaldı", "Diqqət!!!");
+        }
+        else if (distance == 0) {
+            clearInterval(x);
+            document.getElementById("btnEnd").click();
+        };
+
+    }, 1000);
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": true,
+        "positionClass": "toast-top-right",
+        "preventDuplicates": false,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "10000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    };
+</script>

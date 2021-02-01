@@ -1,0 +1,64 @@
+﻿@model ExamAndQuiz.Models.Admin
+
+@{
+    ViewBag.Title = "Yenilə";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Yenilə</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+        @Html.HiddenFor(model => model.QeydiyyatTarixi)
+        @Html.HiddenFor(model => model.Parol)
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Ad, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Ad, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Ad, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Soyad, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Soyad, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Soyad, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", type = "email" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @if (ViewBag.Email != null)
+            {
+                <div class="col-md-10">
+                    <span style="color:red">@ViewBag.Email;</span>
+                </div>
+            }
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Yenilə" class="btn btn-outline-info" />
+                <a href="/Admin/UpdatePassword/@Model.ID" class="btn btn-outline-accent-yellow">Parolu Yenilə</a>
+                <a href="/Admin/Index" class="btn btn-outline-dark">Geri</a>
+            </div>
+        </div>
+    </div>
+}
+

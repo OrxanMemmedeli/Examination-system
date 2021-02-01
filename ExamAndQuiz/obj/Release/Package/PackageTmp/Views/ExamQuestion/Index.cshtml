@@ -1,0 +1,85 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.ExamQuestion>
+
+@{
+    ViewBag.Title = "İmtahan Sualları";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>İmtahan Sualları</h2>
+
+
+
+<p>
+    @using (Html.BeginForm("DeleteConfirmed", "ExamQuestion", new { Id = ViewBag.ImtahanID }, FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Sualları Sil" class="btn btn-outline-accent" />
+        </div>
+    }
+</p>
+
+<table class="table table-bordered table-hover">
+    <tr style="text-align:center">
+        <th>
+            Sual Sırası
+        </th>
+        <th>
+            İmtahan Fənni
+        </th>
+        <th>
+            İmtahan Adı
+        </th>
+        <th>
+            Sual Mətni
+        </th>
+        <th>
+            Cavab Variantları
+        </th>
+        <th>
+            Sual Tipi
+        </th>
+        <th>
+            Tip Parametri
+        </th>
+        <th>
+            Yaradılma Tarixi
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="text-align:center">
+            <td style="width:40px;">
+                @Html.DisplayFor(modelItem => item.SualSirasi)
+            </td>
+            <td style="width:110px;">
+                @Html.DisplayFor(modelItem => item.Subject.Fenn)
+            </td>
+            <td style="width:170px;">
+                @Html.DisplayFor(modelItem => item.Exam.Ad)
+            </td>
+            <td style="width:400px;">
+                @Html.Raw(item.SualMetni)
+            </td>
+            <td style="width:400px;">
+                @Html.Raw(item.Cavablar)
+            </td>
+            <td style="width:40px;">
+                @Html.DisplayFor(modelItem => item.QuestionType.Tip)
+            </td>
+            <td style="width:70px;">
+                @Html.DisplayFor(modelItem => item.ExamTypeParameter.Ad)
+            </td>
+            <td style="width:80px;">
+                @Html.DisplayFor(modelItem => item.YaranmaTarixi)
+            </td>
+            <td style="width:100px; text-align:center">
+                <a href="/ExamQuestion/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+                <a href="/ExamQuestion/Details/@item.ID"><i class="fa fa-desktop" style="color:mediumpurple"></i></a> 
+            </td>
+        </tr>
+    }
+
+</table>

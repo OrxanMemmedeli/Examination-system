@@ -1,0 +1,76 @@
+﻿@model ExamAndQuiz.Models.StudentOption
+
+@{
+    ViewBag.Title = "Yenilə";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Yenilə</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SagirdID, "SagirdID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("SagirdID", null, htmlAttributes: new { @class = "form-control", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.SagirdID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ImtahanId, "ImtahanId", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ImtahanId", null, htmlAttributes: new { @class = "form-control", disabled = "disabled" })
+                @Html.ValidationMessageFor(model => model.ImtahanId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Bitirmek, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.Bitirmek)
+                    @Html.ValidationMessageFor(model => model.Bitirmek, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <big><strong><span style="color:red"> Cavablar hissəsində dəyişiklik etmək doğru hall hesab edilmir. Əgər hər hansı bir səbəbdən dəyişiklik edilərsə, bu zaman Fənnlər Üzrə Nəticələr hissəsində də dəyişiklik edilməlidir. <br /><i>(Diqqət || işarəsi sinilərsə, NƏTİCƏLƏR hissəsində xəta olacaqdır)</i></span></strong></big>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cavablar, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Cavablar, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cavablar, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FennlerUzreNetice, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FennlerUzreNetice, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FennlerUzreNetice, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Yenilə" class="btn btn-outline-info" />
+                <a href="/StudentOption/Index" class="btn btn-outline-dark">Geri</a>
+            </div>
+        </div>
+    </div>
+}
+

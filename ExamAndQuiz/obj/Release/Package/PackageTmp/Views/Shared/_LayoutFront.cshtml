@@ -1,0 +1,220 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title | KhanExam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon-1.png">
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&amp;display=swap" rel="stylesheet">
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="~/assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Fix Footer CSS -->
+    <link type="text/css" href="~/assets/vendor/fix-footer.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="~/assets/css/material-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="~/assets/css/fontawesome.css" rel="stylesheet">
+
+    <!-- Preloader -->
+    <link type="text/css" href="~/assets/css/preloader.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="~/assets/css/app.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/web3/assets/css/style.css">
+
+
+</head>
+
+
+<body class="layout-sticky-subnav layout-default " style="font-family:'Palatino Linotype'">
+    <div class="preloader">
+        <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div>
+    </div>
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+        <!-- Header -->
+        <div id="header" class="mdk-header mdk-header--bg-dark bg-dark js-mdk-header mb-0" data-effects="parallax-background waterfall" data-fixed data-condenses>
+            <div class="mdk-header__bg">
+                <div class="mdk-header__bg-front" style="background-image: url(assets/images/photodune-4161018-group-of-students-m.jpg);"></div>
+            </div>
+            <div class="mdk-header__content justify-content-center">
+
+                <div class="navbar navbar-expand navbar-dark-dodger-blue bg-transparent will-fade-background" id="default-navbar" data-primary>
+                    <!-- Navbar toggler -->
+                    <!-- Navbar Brand -->
+                    <a href="/Home/Index" class="navbar-brand mr-16pt">
+                        <!-- <img class="navbar-brand-icon" src="~/assets/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
+                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
+
+                            <span class="avatar-title rounded bg-primary"><img src="~/assets/images/illustration/student/128/white.svg" alt="logo" class="img-fluid"></span>
+
+                        </span>
+                        <span class="d-none d-lg-block">Khan Exam</span>
+                    </a>
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-start ml-8pt">
+                        <li class="nav-item active">
+                            <a href="/Home/Index" class="nav-link">Ana Səhifə</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="/Home/Blog" class="nav-link">Xəbərlər</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="/Home/About" class="nav-link">Haqqımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/ExamVideo/" class="nav-link">İmtahanda necə iştirak etməli?</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav ml-auto mr-0">
+                        @if (Session["UserName"] != null)
+                        {
+                            <li class="nav-item">
+                                <span style="color:white">@Session["UserName"]</span>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/Account/LogOut/" class="nav-link" data-toggle="tooltip" data-title="Çıxış" data-placement="bottom" data-boundary="window"><i class="fa fa-sign-out-alt">Çıxış</i></a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a href="/Account/Login/" class="nav-link" data-toggle="tooltip" data-title="Giriş" data-placement="bottom" data-boundary="window"><i class="material-icons">lock_open</i>Daxil Ol</a>
+                            </li>
+                        }
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- // END Header -->
+        <!-- Header Layout Content -->
+        <div class="mdk-header-layout__content page-content " style="background-color:#f3fff3">
+
+            <div class="" style="padding-left:60px; padding-right:60px; background-color:#f3fff3">
+                @RenderBody()
+            </div>
+        </div>
+        <!-- // END Header Layout Content -->
+
+        <div class="js-fix-footer2 bg-white border-top-2">
+            <div class="footer-wrappper">
+                <div class="footer-area footer-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-8">
+                                <div class="single-footer-caption mb-50">
+                                    <div class="single-footer-caption mb-30">
+                                        <div class="footer-tittle">
+                                            <div class="footer-pera">
+                                                <p>Mövcud sistem TDV Hilal Kursları tərəfindən "Online İmtahanların" keçirilməsi üçün nəzərdə tutulmuşdur.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="row">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="https://www.youtube.com/channel/UCBIfCxVBPhW7qnqH_WXPbPg" target="_blank"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.facebook.com/tdvhilalkurs" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom-area">
+                        <div class="container">
+                            <div class="footer-border">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-xl-12 ">
+                                        <div class="footer-copy-right text-center">
+                                            <p class="text-50" style="font-family:'Palatino Linotype'">Copyright 2020 &copy; All rights reserved | Create by <b>Khan</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!-- // END Header Layout -->
+    <!-- jQuery -->
+    <script src="~/assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="~/assets/vendor/popper.min.js"></script>
+    <script src="~/assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="~/assets/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- DOM Factory -->
+    <script src="~/assets/vendor/dom-factory.js"></script>
+
+    <!-- MDK -->
+    <script src="~/assets/vendor/material-design-kit.js"></script>
+
+    <!-- Fix Footer -->
+    <script src="~/assets/vendor/fix-footer.js"></script>
+
+    <!-- App JS -->
+    <script src="~/assets/js/app.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        (function () {
+            'use strict';
+            var headerNode = document.querySelector('.mdk-header')
+            var layoutNode = document.querySelector('.mdk-header-layout')
+            var componentNode = layoutNode ? layoutNode : headerNode
+
+            componentNode.addEventListener('domfactory-component-upgraded', function () {
+                headerNode.mdkHeader.eventTarget.addEventListener('scroll', function () {
+                    var progress = headerNode.mdkHeader.getScrollState().progress
+                    var navbarNode = headerNode.querySelector('#default-navbar')
+                    navbarNode.classList.toggle('bg-transparent', progress <= 0.2)
+                })
+            })
+        })()</script>
+</body>
+
+</html>

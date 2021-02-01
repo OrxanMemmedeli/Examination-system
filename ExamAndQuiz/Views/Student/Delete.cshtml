@@ -1,0 +1,146 @@
+﻿@model ExamAndQuiz.Models.Student
+
+@{
+    ViewBag.Title = "Sil";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Sil</h2>
+
+<h3>Silinən məlumatlar bərpa edilə bilməz</h3>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AtaAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AtaAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SVNomresi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SVNomresi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cins)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cins)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DogumTarixi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DogumTarixi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WhatsApp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WhatsApp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MobilNomre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MobilNomre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QeydiyyatTarixi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QeydiyyatTarixi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FotoURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FotoURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City.Seher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City.Seher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CourseGroup.Qrup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CourseGroup.Qrup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grade.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grade.ID)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-outline-info" />
+            <a href="/Student/Index" class="btn btn-outline-dark">Geri</a>
+        </div>
+    }
+</div>

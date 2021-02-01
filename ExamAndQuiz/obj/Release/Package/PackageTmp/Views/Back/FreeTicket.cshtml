@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Exam>
+
+@{
+    ViewBag.Title = "Pulsuz Biletlər";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Pulsuz Biletlər</h2>
+
+
+@using (Html.BeginForm("FreeTicket", "Back", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <table>
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <select name="imtahanID" class="form-control" style="width:300px">
+                                @foreach (var item in Model)
+                                {
+                                    <option value="@item.ID">@item.Ad</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" onclick="return Up();" value="Biletləri Hazırla" class="btn btn-outline-accent" />
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="form-group">
+            @if (ViewBag.Message != null)
+            {
+                <div class="col-md-10">
+                    <span style="color:red">@ViewBag.Message</span>
+                </div>
+            }
+        </div>
+    </div>
+}

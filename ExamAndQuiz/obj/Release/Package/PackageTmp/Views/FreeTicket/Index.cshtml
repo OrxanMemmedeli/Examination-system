@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.FreeTicket>
+
+@{
+    ViewBag.Title = "Pulsuz Bilet";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+    int saygac = Model.Count() / 10;
+}
+
+<h2>Pulsuz Bilet : <span style="color:red">@Model.Count()</span></h2>
+
+
+<p>
+    <a href="/FreeTicket/Create" class="btn btn-outline-dark">Yeni Sinif</a>
+    <a href="/FreeTicket/DeleteAll" class="btn btn-outline-accent">Hamısını Sil</a>
+    <a href="/Back/FreeTicket" class="btn btn-outline-primary-yellow">Biletləri Hazır Et</a>
+</p>
+
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SagirdKodu)
+            </th>
+            <th></th>
+        </tr>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SagirdKodu)
+                </td>
+                <td style="width:100px; text-align:center">
+                    <a href="/FreeTicket/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+                    <a href="/FreeTicket/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+                </td>
+            </tr>
+        }
+
+    </table>*@
+
+<div class="form-horizontal">
+        <h4>Sagird Kodlari</h4>
+    <hr />
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="row" style="margin:1px ; border:double; border:1px solid black; border-color:gray">
+                <div class="row" style="margin:1px ">
+                    <div style="width:60px; text-align:center; color: darkblue"> <strong>@item.SagirdKodu</strong></div>
+                    <div style="width:30px; text-align:center">
+                        <a href="/FreeTicket/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@*@for (int i = 0; i < 10; i++)
+    {
+        @for (int j = 0; j < Model.Count() / 10; j++)
+        {
+
+        }
+    }*@

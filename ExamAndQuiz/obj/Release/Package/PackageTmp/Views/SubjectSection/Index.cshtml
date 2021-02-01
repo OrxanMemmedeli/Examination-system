@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.SubjectSection>
+
+@{
+    ViewBag.Title = "Mövzular";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Mövzular</h2>
+
+<p>
+    <a href="/SubjectSection/Create" class="btn btn-outline-dark">Yeni Mövzu</a>
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Movzu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Subject.Fenn)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.OrderBy(x=>x.Movzu)) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Movzu)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Subject.Fenn)
+    </td>
+    <td style="width:100px; text-align:center">
+        <a href="/SubjectSection/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+        <a href="/SubjectSection/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+    </td>
+</tr>
+}
+
+</table>

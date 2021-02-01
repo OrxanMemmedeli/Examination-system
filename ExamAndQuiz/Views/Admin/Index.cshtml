@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ExamAndQuiz.Models.Admin>
+
+@{
+    ViewBag.Title = "Adminlər";
+    Layout = "~/Views/Shared/_LayoutBack.cshtml";
+}
+
+<h2>Adminlər</h2>
+
+<p>
+    <a href="/Admin/Create" class="btn btn-outline-dark">Yeni Admin</a>
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Soyad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Parol)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QeydiyyatTarixi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Ad)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Soyad)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Parol)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.QeydiyyatTarixi)
+    </td>
+    <td style="width:100px; text-align:center">
+        <a href="/Admin/Edit/@item.ID"><i class="fa fa-edit" style="color:green"></i></a> |
+        <a href="/Admin/Delete/@item.ID"><i class="fa fa-times-circle" style="color:red"></i></a>
+    </td>
+</tr>
+}
+
+</table>
